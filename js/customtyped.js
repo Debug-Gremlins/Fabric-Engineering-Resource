@@ -4,10 +4,12 @@ var typed = new Typed(".text", {
    * @property {string} stringsElement ID of element containing string children
    */
   strings: [
-    "Fabric Engineering (FE)",
-    "Batch 46",
+    "Fabric Engineering (FE).",
+    "Batch 46.",
     "Departmental Resources!",
     "Syllabus!",
+    "Class Lectures!",
+    "PDF Files!",
     "Bus Routes!",
   ],
   stringsElement: null,

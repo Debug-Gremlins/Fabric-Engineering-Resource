@@ -49,6 +49,13 @@ body {
 }
 /* Overlay Buttons Ends */
 
+.typer {
+  margin-top: 200px;
+  text-align: end;
+}
+.typer h1 {
+  color: #ebd8b7;
+}
 /* Card Starts */
 .card {
   text-align: center;
@@ -295,14 +302,26 @@ footer .overlaybttn {
     padding: 10px 10px 0px !important;
   }
   .cpy-rgt {
-    font-size: 18px;
+    font-size: 17px;
+  }
+  .typer h1 {
+    font-size: 22px;
   }
 }
 @media (max-width: 599px) {
+  .syllabus {
+    padding: 0;
+  }
   .card {
     text-align: center;
     align-items: center;
     padding: 30px 0px;
+  }
+  .typer h1 {
+    font-size: 22px;
+  }
+  #bce {
+    margin-top: 40px;
   }
   .section-title h1 {
     font-size: 30px !important;
@@ -364,7 +383,16 @@ footer .overlaybttn {
     font-size: 15px;
   }
   footer ul li h4 {
+    font-size: 17px;
+  }
+  footer ul li span,
+  h4,
+  h5 {
+    color: #e0245e;
     font-size: 18px;
+  }
+  footer ul li h5 {
+    font-size: 16px;
   }
   footer {
     position: relative;

@@ -1,7 +1,8 @@
 /* HEADER STARTS */
 header {
-  background-color: #174840e3;
+  background-color: #16443eda;
   padding: 60px 0px 40px;
+  border-bottom: 2px solid #c5d7bd;
 }
 .nav-item {
   padding: 0px 10px;
@@ -20,8 +21,9 @@ header {
 
 .nav-link:hover {
   /* color: #794bc4; */
-  border-bottom: 2px solid brown;
+  border-bottom: 2px solid #fff9b0;
   cursor: pointer;
+  color: #c5d7bd;
 }
 .navbar-brand {
   margin-right: 0 !important;
@@ -33,10 +35,18 @@ header {
 
 .navbar-brand img {
   max-width: 180px;
+  transition: all linear 0.3s;
 }
+
 .rotate {
-  animation: rotation 8s infinite linear;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1);
 }
+
+.rotate:hover {
+  transform: scale(1.1);
+}
+/*
 @keyframes rotation {
   from {
     transform: rotate(0deg);
@@ -44,7 +54,7 @@ header {
   to {
     transform: rotate(359deg);
   }
-}
+} */
 
 header {
   position: fixed;
@@ -67,5 +77,5 @@ header {
 }
 
 #bce {
-  margin-top: 200px;
+  margin-top: 50px;
 }
