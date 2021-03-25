@@ -1,6 +1,6 @@
 /* HEADER STARTS */
 header {
-  background-color: #31404ee3;
+  background-color: #174840e3;
   padding: 60px 0px 40px;
 }
 .nav-item {
@@ -21,6 +21,7 @@ header {
 .nav-link:hover {
   /* color: #794bc4; */
   border-bottom: 2px solid brown;
+  cursor: pointer;
 }
 .navbar-brand {
   margin-right: 0 !important;
@@ -31,8 +32,20 @@ header {
 }
 
 .navbar-brand img {
-  max-width: 140px;
+  max-width: 180px;
 }
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
 header {
   position: fixed;
   top: 0px;
@@ -50,9 +63,9 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  background-image: url(http://assets.stickpng.com/images/588a64e7d06f6719692a2d11.png);
+  background-image: url(../images/hamburger.png);
 }
 
-#bce{
-    margin-top: 200px;
+#bce {
+  margin-top: 200px;
 }
