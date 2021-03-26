@@ -70,7 +70,7 @@ header {
 }
 
 .rotate,
-.ft_logo {
+.rotating {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
 }
