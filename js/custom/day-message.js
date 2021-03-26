@@ -5,18 +5,18 @@ $(document).ready(function () {
     var hr = ndate.getHours();
     var h = hr % 12;
 
-      if (hr < 12) {
+      if (hr >= 5 && hr < 12) {
           greet = "Good Morning!";
           format = "AM";
-      } else if (hr >= 12 && hr <= 18) {
+      } else if (hr >= 12 && hr < 18) {
           greet = "Good Afternoon!";
           format = "PM";
-      } else if (hr >= 18 && hr <= 24) {
+      } else if (hr >= 18 && hr < 22) {
           greet = "Good Evening!";
           format = "PM";
       } else {
           greet = "Good Night!";
-          format = "PM"
+          format = "PM";
       }
     var m = ndate.getMinutes().toString();
     var s = ndate.getSeconds().toString();
