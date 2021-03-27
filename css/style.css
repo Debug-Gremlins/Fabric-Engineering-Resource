@@ -125,6 +125,22 @@ section table tr td:nth-child(3) {
 
 /* Card Ends */
 
+.counter-area{
+  padding: 30px 0px 10px;
+}
+.counter-area h1{
+  font-size: 30px;
+  display: inline-table;
+  color: #17bf63;
+}
+.counter-area h2{
+  color: wheat;
+}
+.counter-area p{
+  color: #794bc4;
+  font-size: 20px;
+}
+
 /* Syllabus Starts */
 .syllabus {
   padding: 20px 0px 40px;
