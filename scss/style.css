@@ -453,37 +453,6 @@ h5 {
   color: #e0245e;
 }
 
-.socials a {
-  color: wheat;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.socials ul {
-  display: inline-block;
-}
-
-.socials ul li a i {
-  -webkit-transition: all linear 0.3s;
-  transition: all linear 0.3s;
-}
-
-.socials ul li .fa-facebook-square:hover {
-  color: #4267b2;
-}
-
-.socials ul li .fa-twitter:hover {
-  color: #19c6f1;
-}
-
-.socials ul li .fa-github:hover {
-  opacity: 0.5;
-}
-
-.socials ul li .fa-discord:hover {
-  color: #7289d9;
-}
-
 .cpy-rgt {
   font-size: 20px;
   font-family: "Raleway";
@@ -509,14 +478,31 @@ h5 {
   max-width: 100%;
 }
 
+.developedBy {
+  padding: 10px 10px 20px;
+}
+
 .developedBy h5 {
+  font-family: "Roboto Slab";
   margin: 20px 0px;
   color: #17bf63;
 }
 
 .developedBy ul {
   display: inline-block;
-  display: inline-block;
+}
+
+.developedBy ul li a i {
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.developedBy ul li .fa-facebook-square:hover {
+  color: #315aaa;
+}
+
+.developedBy ul li .fa-twitter:hover {
+  color: #19c6f1;
 }
 
 .developedBy ul li {
@@ -529,7 +515,7 @@ h5 {
 }
 
 .developedBy ul li .fa-envelope:hover {
-  color: #f77d97;
+  color: #d0f743;
 }
 
 .developedBy ul li .fa-github:hover {
@@ -538,6 +524,10 @@ h5 {
 
 .developedBy ul li .fa-discord:hover {
   color: #7289d9;
+}
+
+.developedBy ul li .fa-linkedin-in:hover {
+  color: #0e76a8;
 }
 
 .developedBy h1 {
@@ -624,6 +614,9 @@ h5 {
   .foot_bg img {
     max-width: 100% !important;
   }
+  .dev-icon {
+    margin: 150px 0px 30px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -642,6 +635,12 @@ h5 {
 }
 
 @media (max-width: 599px) {
+  .dev-icon {
+    margin: 150px 0px 30px;
+  }
+  .social {
+    padding: 0;
+  }
   .foot_bg img {
     max-width: 100% !important;
   }
