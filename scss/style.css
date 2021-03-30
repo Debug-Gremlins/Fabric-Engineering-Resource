@@ -40,7 +40,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
@@ -61,8 +61,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .overlaybttn .fa-arrow-circle-down {
@@ -81,12 +81,12 @@ body {
   border-radius: 20px;
   background: #15202b;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .overlaybttn a:hover {
   -webkit-box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
-          box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
+  box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
 }
 
 .overlaybttn a i {
@@ -125,16 +125,37 @@ body {
 .card {
   text-align: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 50px 100px;
   border-radius: 20px;
   background: #15202b;
   -webkit-box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
-          box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
+  box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
   margin-bottom: 70px;
 }
 
+.bce,
+.chem,
+.math,
+.ntf,
+.phy,
+.sylb,
+.bus-route {
+  margin-top: 230px;
+}
+
+.routine{
+  margin-top: 80px;
+}
+
+.vct img{
+  max-width: 80%;
+}
+
+.vct2 img{
+  max-width: 100%;
+}
 .section-title {
   width: 100%;
   padding-bottom: 40px;
@@ -173,7 +194,7 @@ section table tr td:nth-child(3) {
   padding: 10px 5px;
   border-radius: 5px;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
   display: inline-block;
 }
 
@@ -226,7 +247,7 @@ section table tr td:nth-child(3) {
   border-radius: 10px;
   margin: 8px 0px;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .sy-link a:hover {
@@ -246,7 +267,7 @@ section table tr td:nth-child(3) {
   padding: 10px;
   border-radius: 10px;
   -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
   font-size: 20px;
 }
 
@@ -284,7 +305,7 @@ footer {
   border-radius: 50px 50px 0px 0px;
   background: #15202b;
   -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
-          box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
+  box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
   margin: 100px 0px 0px;
   position: relative;
 }
@@ -309,7 +330,7 @@ footer ul li a {
   display: inline-block;
   color: #e4e4e4;
   -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 footer ul li a:hover {
@@ -410,10 +431,10 @@ h5 {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     border-bottom: 1px groove white;
     padding: 25px;
   }
@@ -476,16 +497,19 @@ h5 {
   .card {
     text-align: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 30px 0px;
   }
   .typer h1 {
     font-size: 22px;
   }
-  #bce {
-    margin-top: 15px !important;
-  }
+.bce, .chem, .math, .ntf, .phy{
+    margin-top: 150px;
+}
+.sylb, .bus-route {
+    margin-top: 115px;
+}
   .section-title h1 {
     font-size: 30px !important;
     font-size: 20px;
