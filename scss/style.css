@@ -154,12 +154,14 @@ body {
 }
 .vct h1,
 .vct2 h1,
-.vct3 h1 {
+.vct3 h1,
+.vct4 h1 {
   color: #e0245e;
 }
 .vct p,
 .vct2,
-.vct3 p {
+.vct3,
+.vct4 p {
   margin-top: 15px;
   font-family: "Roboto Slab";
   font-size: 18px;
@@ -204,6 +206,10 @@ body {
 
 .vct3 img {
   max-width: 80%;
+}
+
+.vct4 img{
+  max-width: 50%;
 }
 
 .section-title {
@@ -528,13 +534,15 @@ h5 {
 @media (max-width: 599px) {
   .vct h1,
   .vct2 h1,
-  .vct3 h1 {
+  .vct3 h1,
+  .vct4 h1 {
     color: #e0245e;
     font-size: 26px;
   }
   .vct p,
   .vct2,
-  .vct3 p {
+  .vct3,
+  .vct4 p {
     margin-top: 15px;
     font-family: "Roboto Slab";
     font-size: 13px;
