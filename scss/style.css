@@ -145,17 +145,67 @@ body {
   margin-top: 230px;
 }
 
-.routine{
+.routine {
   margin-top: 80px;
 }
+.vct2,
+.vct3 {
+  padding: 0px;
+}
+.vct h1,
+.vct2 h1,
+.vct3 h1 {
+  color: #e0245e;
+}
+.vct p,
+.vct2,
+.vct3 p {
+  margin-top: 15px;
+  font-family: "Roboto Slab";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+}
 
-.vct img{
+.btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 2px solid #17bf63;
+  background-color: transparent;
+  border-radius: 25px;
+  transition: all linear 0.5s;
+}
+
+.btn a {
+  color: #15202b;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #17bf63;
+  transition: all linear 0.5s;
+}
+
+.btn:hover {
+  background-color: #17bf63;
+  border: 2px solid transparent;
+}
+.btn:hover a {
+  color: #15202b;
+}
+
+.vct img {
   max-width: 80%;
 }
 
-.vct2 img{
+.vct2 img {
   max-width: 100%;
 }
+
+.vct3 img {
+  max-width: 80%;
+}
+
 .section-title {
   width: 100%;
   padding-bottom: 40px;
@@ -203,7 +253,7 @@ section table tr td:nth-child(3) {
 }
 
 .counter-area {
-  padding: 30px 0px 10px;
+  padding: 90px 0px 10px;
 }
 
 .counter-area h1 {
@@ -476,6 +526,29 @@ h5 {
 }
 
 @media (max-width: 599px) {
+  .vct h1,
+  .vct2 h1,
+  .vct3 h1 {
+    color: #e0245e;
+    font-size: 26px;
+  }
+  .vct p,
+  .vct2,
+  .vct3 p {
+    margin-top: 15px;
+    font-family: "Roboto Slab";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+  .btn {
+    margin-top: 0px;
+    padding: 7px 15px;
+    border: 2px solid #17bf63;
+    background-color: transparent;
+    border-radius: 25px;
+    transition: all linear 0.5s;
+  }
   .day-message {
     color: wheat;
     font-size: 26px;
@@ -504,12 +577,17 @@ h5 {
   .typer h1 {
     font-size: 22px;
   }
-.bce, .chem, .math, .ntf, .phy{
+  .bce,
+  .chem,
+  .math,
+  .ntf,
+  .phy {
     margin-top: 150px;
-}
-.sylb, .bus-route {
+  }
+  .sylb,
+  .bus-route {
     margin-top: 115px;
-}
+  }
   .section-title h1 {
     font-size: 30px !important;
     font-size: 20px;
