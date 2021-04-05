@@ -1,3 +1,7 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* HEADER STARTS */
 /* Dropdown content (hidden by default) */
 /* Show the dropdown menu on hover */
@@ -20,6 +24,7 @@ header {
   width: 100%;
   border-bottom: 1px solid #3f3e3e;
   z-index: 99;
+  font-family: Poppins;
 }
 
 .nav-item {

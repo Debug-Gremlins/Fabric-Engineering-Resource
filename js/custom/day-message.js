@@ -5,10 +5,10 @@ $(document).ready(function () {
     var hr = ndate.getHours();
     var h = hr % 12;
 
-    if (hr >= 5 && hr < 8) {
+    if (hr >= 5 && hr < 7) {
       greet = "Good Morning!🌄";
       format = "AM";
-    } else if (hr >= 8 && hr < 12) {
+    } else if (hr >= 7 && hr < 12) {
       greet = "Good Morning!☀️";
       format = "AM";
     } else if (hr >= 12 && hr < 16) {
@@ -20,12 +20,12 @@ $(document).ready(function () {
     } else if (hr >= 18 && hr < 20) {
       greet = "Good Evening!🌆";
       format = "PM";
-    } else if (hr >= 20 && hr < 21) {
-      greet = "Good Evening!🌙";
+    } else if (hr >= 20 && hr < 24) {
+      greet = "Good Night!🌙";
       format = "PM";
     } else {
       greet = "Good Night!🌙";
-      format = "PM";
+      format = "AM";
     }
 
     var m = ndate.getMinutes().toString();
