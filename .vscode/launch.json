@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-msedge",
+            "name": "https://debug-gremlins.github.io/Fabric-Engineering-Resource/",
+            "request": "launch",
+            "url": "https://debug-gremlins.github.io/Fabric-Engineering-Resource/"
+        }
+    ]
+}

@@ -46,6 +46,10 @@ body {
   overflow-x: hidden;
 }
 
+ul,
+li {
+  list-style: none;
+}
 /*Font Controlling */
 .overlaybttn a,
 .day-text,
@@ -549,7 +553,8 @@ section table tr td:nth-child(3) {
   color: #0e76a8;
 }
 
-.developedBy h1 {
+.developedBy h1,
+h3 {
   font-family: Pacifico;
   color: #e0245e;
 }
@@ -571,6 +576,10 @@ section table tr td:nth-child(3) {
 
 .dev-icon img {
   max-width: 100%;
+}
+
+.shield {
+  margin: 20px 0px;
 }
 
 /********************* Developer.html ********************** */
@@ -716,6 +725,9 @@ h5 {
   }
   section table tr th:nth-child(5) {
     width: 100%;
+  }
+  .developedBy .card {
+    padding: 20px 10px;
   }
 }
 
@@ -942,6 +954,9 @@ h5 {
   .developedBy p {
     color: #354066;
     font-size: 16px;
+  }
+  .developedBy h3 {
+    font-size: 20px;
   }
 }
 
