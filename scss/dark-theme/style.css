@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-
 /* Universal CSS */
 * {
   padding: 0;
@@ -23,8 +22,8 @@ body {
   color: #e4e4e4;
   overflow-x: hidden;
 }
-/* Universal CSS */
 
+/* Universal CSS */
 /* Overlay Button Starts */
 .overlaybttn {
   margin: 30px 0px;
@@ -36,10 +35,7 @@ body {
   justify-content: flex-end;
 }
 
-.overlaybttn .fa-arrow-circle-down {
-  color: #17bf63;
-}
-
+.overlaybttn .fa-arrow-circle-down,
 .overlaybttn .fa-arrow-circle-up {
   color: #17bf63;
 }
@@ -71,11 +67,10 @@ body {
   font-size: 20px;
   display: inline-block;
 }
+
 /* Overlay Button Ends */
-
-/***************************** Index.html *********************************/
+/***************************** Index.html ******************************** */
 /* Day Section Starts */
-
 .day-text {
   margin-top: 170px;
   font-family: Pacifico;
@@ -91,8 +86,8 @@ body {
   font-size: 30px;
   color: #17bf63;
 }
-/* Day Section Ends */
 
+/* Day Section Ends */
 /* Typer Section Starts */
 .typer {
   text-align: end;
@@ -102,8 +97,8 @@ body {
   color: #e0245e;
   font-family: Pacifico;
 }
-/* Typer Section Ends */
 
+/* Typer Section Ends */
 /* Vecctor Section Starts */
 .vct2 {
   padding: 0px;
@@ -166,6 +161,7 @@ body {
 .vct4 img {
   max-width: 100%;
 }
+
 .vct p,
 .vct2 p,
 .vct3 p,
@@ -208,10 +204,9 @@ body {
 .btn:hover a {
   color: #15202b;
 }
+
 /* Vecctor Section Ends */
-
 /* Banner Section Starts */
-
 .banner {
   background-position: center;
   background-repeat: no-repeat;
@@ -234,8 +229,8 @@ body {
   color: #e9dddd;
   font-family: Poppins;
 }
-/* Banner Section Ends */
 
+/* Banner Section Ends */
 /* Counter Section Starts */
 .counter-area {
   padding: 90px 0px 10px;
@@ -257,10 +252,9 @@ body {
   color: #794bc4;
   font-size: 20px;
 }
+
 /* Counter Section Ends */
-
 /* Details Section Starts */
-
 .details {
   padding: 100px 0px;
   color: #121c25;
@@ -284,6 +278,7 @@ body {
   padding: 10px 20px;
   border-radius: 10px;
   border: 1px solid #3f2bd4;
+  -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
 
@@ -291,9 +286,6 @@ body {
   background-color: #3f2bd4;
   color: white;
   border: 1px solid transparent;
-}
-
-.pre-con-btn {
   padding: 20px 0px;
 }
 
@@ -305,6 +297,7 @@ body {
   margin-right: inherit;
   margin-left: inherit;
 }
+
 .bg_sec_1,
 .bg_sec_2,
 .bg_sec_3,
@@ -322,22 +315,26 @@ body {
 .bg_sec_1 {
   background-image: url(https://cdn.pixabay.com/photo/2019/09/28/12/47/workshop-4510700_1280.jpg);
 }
+
 .bg_sec_2 {
   background-image: url(https://cdn.pixabay.com/photo/2018/04/14/20/12/texture-3319946_1280.jpg);
 }
+
 .bg_sec_3 {
   background-image: url(https://cdn.pixabay.com/photo/2014/04/05/11/21/sewing-machine-315382_1280.jpg);
 }
+
 .bg_sec_4 {
   background-image: url(https://cdn.pixabay.com/photo/2018/08/24/23/33/oil-3629119_1280.jpg);
 }
+
 .bg_sec_5 {
   background-image: url(https://cdn.pixabay.com/photo/2017/08/05/14/24/yarn-2583975_1280.jpg);
 }
-/* Details Section Ends */
-/***************************** Index.html *********************************/
 
-/***************************** Resources.html *********************************/
+/* Details Section Ends */
+/***************************** Index.html ******************************** */
+/***************************** Resources.html ******************************** */
 /* Card Section Starts */
 .card {
   text-align: center;
@@ -351,8 +348,8 @@ body {
   box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
   margin-bottom: 70px;
 }
-/* Card Section Ends */
 
+/* Card Section Ends */
 /* Section Starts */
 .section-title {
   width: 100%;
@@ -360,7 +357,14 @@ body {
   font-size: 48px;
 }
 
-.section-title h1,
+.section-title h1 {
+  font-family: "Pacifico";
+  font-weight: 900;
+  color: #17bf63;
+  font-size: 26px;
+  font-weight: 400;
+}
+
 h2 {
   font-family: "Pacifico";
   font-weight: 900;
@@ -396,41 +400,27 @@ section table tr td:nth-child(3) {
   transition-duration: 0.3s;
   display: inline-block;
 }
+
 .pdf h2 {
   margin-bottom: 30px;
   color: #17bf63;
 }
+
 /* Section Ends */
-
 /* Resource Section Starts */
-.bce {
-  margin-top: 230px;
-}
-
-.chem {
-  margin-top: 230px;
-}
-
-.math {
-  margin-top: 230px;
-}
-
-.ntf {
-  margin-top: 230px;
-}
-
-.phy {
-  margin-top: 230px;
-}
-/* Resource Section Ends */
-/***************************** Resources.html *********************************/
-
-/***************************** Syllabus.html *********************************/
-/* Syllabus Section Starts */
+.bce,
+.chem,
+.math,
+.ntf,
+.phy,
 .sylb {
   margin-top: 230px;
 }
 
+/* Resource Section Ends */
+/***************************** Resources.html ******************************** */
+/***************************** Syllabus.html ******************************** */
+/* Syllabus Section Starts */
 .syllabus {
   padding: 20px 0px 40px;
 }
@@ -439,10 +429,7 @@ section table tr td:nth-child(3) {
   padding-bottom: 60px;
 }
 
-.sy-link a:hover {
-  opacity: 0.5;
-}
-
+.sy-link a:hover,
 .link a:hover {
   opacity: 0.5;
 }
@@ -467,40 +454,33 @@ section table tr td:nth-child(3) {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* Syllabus Section Ends */
-/***************************** Syllabus.html *********************************/
 
-/***************************** Accessories.html *******************************/
+/* Syllabus Section Ends */
+/***************************** Syllabus.html ******************************** */
+/***************************** Accessories.html ****************************** */
 /* Bus Section Starts */
 .bus-route {
   margin-top: 230px;
   padding: 10px;
 }
+
 .bus-route h2 {
   font-family: Pacifico;
   color: #e0245e;
 }
+
 .bus-route img {
   max-width: 100%;
 }
 
-.bus1 {
-  margin: 0;
-}
-
-.bus2 {
-  margin: 0;
-}
-
-.bus3 {
-  margin: 0;
-}
-
+.bus1,
+.bus2,
+.bus3,
 .bus4 {
   margin: 0;
 }
-/* Bus Section Ends */
 
+/* Bus Section Ends */
 /* Routine Section  Starts */
 .routine {
   margin-top: 80px;
@@ -527,10 +507,8 @@ section table tr td:nth-child(3) {
 }
 
 /* Routine Section Ends */
-/***************************** Accessories.html *******************************/
-
-/***************************** Developer.html *******************************/
-
+/***************************** Accessories.html ****************************** */
+/***************************** Developer.html ****************************** */
 .developedBy {
   padding: 10px 10px 20px;
 }
@@ -556,9 +534,6 @@ section table tr td:nth-child(3) {
 
 .developedBy ul li .fa-twitter:hover {
   color: #19c6f1;
-}
-
-.developedBy ul li {
   list-style: none;
 }
 
@@ -607,8 +582,7 @@ section table tr td:nth-child(3) {
   max-width: 100%;
 }
 
-/***************************** Developer.html *******************************/
-
+/***************************** Developer.html ****************************** */
 /* Footer Section Starts */
 footer {
   text-align: center;
@@ -713,10 +687,9 @@ h5 {
     transform: rotate(360deg);
   }
 }
+
 /* Footer Section Ends */
-
-/************************** Responsive **************************/
-
+/************************** Responsive ************************* */
 @media (min-width: 1199px) {
   .developedBy {
     padding: 30px 0px;
@@ -740,9 +713,7 @@ h5 {
   .overlaybttn {
     margin: 0px 0px;
   }
-  .overlaybttn a i {
-    font-size: 14px;
-  }
+  .overlaybttn a i,
   .overlaybttn a span {
     font-size: 14px;
   }
@@ -876,17 +847,7 @@ h5 {
     font-weight: 300;
     line-height: 1.7;
   }
-  .vct2 {
-    margin-top: 15px;
-    font-family: "Roboto Slab";
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 1.7;
-  }
-  .vct2 h1 {
-    color: #e0245e;
-    font-size: 26px;
-  }
+  .vct2,
   .vct3 {
     margin-top: 15px;
     font-family: "Roboto Slab";
@@ -894,6 +855,7 @@ h5 {
     font-weight: 300;
     line-height: 1.7;
   }
+  .vct2 h1,
   .vct3 h1 {
     color: #e0245e;
     font-size: 26px;
@@ -946,18 +908,10 @@ h5 {
   .typer h1 {
     font-size: 22px;
   }
-  .bce {
-    margin-top: 150px;
-  }
-  .chem {
-    margin-top: 150px;
-  }
-  .math {
-    margin-top: 150px;
-  }
-  .ntf {
-    margin-top: 150px;
-  }
+  .bce,
+  .chem,
+  .math,
+  .ntf,
   .phy {
     margin-top: 150px;
   }
@@ -975,9 +929,7 @@ h5 {
     font-size: 20px;
     margin-top: 20px;
   }
-  .overlaybttn a i {
-    font-size: 15px !important;
-  }
+  .overlaybttn a i,
   .overlaybttn a span {
     font-size: 15px !important;
   }
@@ -990,18 +942,14 @@ h5 {
     width: 100%;
     font-size: 12px;
   }
-  section table tr th:first-child {
-    width: 50% !important;
-  }
+  section table tr th:first-child,
   section table tr th:nth-child(2) {
     width: 50% !important;
   }
   section table tr td {
     width: 100%;
   }
-  section table tr td:first-child {
-    width: 50% !important;
-  }
+  section table tr td:first-child,
   section table tr td:nth-child(2) {
     width: 50% !important;
   }
@@ -1042,10 +990,7 @@ h5 {
     margin-top: 20px;
     margin-bottom: 30px;
   }
-  h4 {
-    color: #e0245e;
-    font-size: 18px;
-  }
+  h4,
   h5 {
     color: #e0245e;
     font-size: 18px;
@@ -1062,5 +1007,6 @@ h5 {
     font-size: 15px;
   }
 }
-/************************** Responsive **************************/
+
+/************************** Responsive ************************* */
 /*# sourceMappingURL=style.css.map */

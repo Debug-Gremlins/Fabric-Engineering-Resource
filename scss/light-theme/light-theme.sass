@@ -1,0 +1,834 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap")
+
+@-webkit-keyframes rotating
+  from
+  -webkit-transform: rotate(0deg)
+  transform: rotate(0deg)
+
+  to
+  -webkit-transform: rotate(360deg)
+  transform: rotate(360deg)
+
+@keyframes rotating
+  from
+    -webkit-transform: rotate(0deg)
+    transform: rotate(0deg)
+
+  to
+    -webkit-transform: rotate(360deg)
+    transform: rotate(360deg)
+
+/*********** Universal CCS ************
+
+*
+  padding: 0
+  margin: 0
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  scroll-behavior: smooth
+
+a
+  text-decoration: none
+
+body
+  font-family: Poppins, sans-serif
+  background: #e0e0e0
+  color: #e4e4e4
+  overflow-x: hidden
+
+/*Font Controlling
+
+.overlaybttn a, .day-text, .vct h1, .vct2 h1, .vct3 h1, .vct4 h1, .counter-area h1, .section-title h1, h2, .bus-route h2
+  font-family: "Pacifico"
+
+.developedBy
+  h5, p
+    font-family: "Pacifico"
+
+footer ul li span, h4, .cpy-rgt
+  font-family: "Pacifico"
+
+.day-message, .btn a, h5
+  font-family: "Courgette"
+
+.counter-area p, section table
+  font-family: "Poppins"
+
+/*Font Controlling
+
+/*********** Universal CCS ************
+
+/* Overlay Button Starts
+
+.overlaybttn
+  margin: 30px 0px
+  display: -webkit-box
+  display: -ms-flexbox
+  display: flex
+  -webkit-box-pack: end
+  -ms-flex-pack: end
+  justify-content: flex-end
+
+  .fa-arrow-circle-down, .fa-arrow-circle-up
+    color: #e0245e
+
+  a
+    color: #e0245e
+
+    /* font-family: Pacifico;
+    display: inline-block
+    text-decoration: none
+    padding: 10px 15px
+    border-radius: 10px
+    background: #cbb3b3
+    -webkit-transition-duration: 0.3s
+    transition-duration: 0.3s
+
+    &:hover
+      box-shadow: 2px 2px 6px #ad9898, -2px -2px 6px #e9cece
+
+    i
+      color: #4285f4
+      font-size: 21px
+
+    span
+      padding-left: 2px
+      font-size: 20px
+      display: inline-block
+
+/* Overlay Button Ends
+
+/********************* Index.html **********************
+/* Day Section Starts
+
+.day-text
+  margin-top: 170px
+
+  /* font-family: Pacifico;
+
+.day-message
+  color: #2d2d2d
+  font-size: 40px
+
+  /* font-family: Courgette;
+
+.date
+  font-size: 30px
+  color: #17bf63
+
+/* Day Section Ends
+
+/* Tyoer Section Starts
+
+.typer
+  text-align: end
+
+  h1
+    color: #e0245e
+    font-family: Pacifico
+
+/* Typer Section Ends
+
+/* Vector Section Starts
+
+.vct2
+  padding: 0px
+  margin-top: 15px
+  font-size: 18px
+  font-weight: 400
+  line-height: 1.7
+
+  h1
+    color: #e0245e
+
+  img
+    max-width: 100%
+
+.vct3
+  padding: 0px
+  margin-top: 15px
+  font-size: 18px
+  font-weight: 400
+  line-height: 1.7
+
+  h1
+    color: #e0245e
+
+  img
+    max-width: 80%
+
+.vct
+  h1
+    color: #e0245e
+
+  p
+    margin-top: 15px
+    font-size: 18px
+    font-weight: 400
+    line-height: 1.7
+
+  img
+    max-width: 80%
+
+.vct4
+  p
+    margin-top: 15px
+    font-size: 18px
+    font-weight: 400
+    line-height: 1.7
+
+  img
+    max-width: 100%
+
+.vct p, .vct2 p, .vct3 p, .vct4 p
+  color: #15202b
+
+.vct h1, .vct2 h1, .vct3 h1, .vct4 h1
+  color: #e0245e
+
+  /* font-family: Pacifico;
+
+.btn
+  margin-top: 30px
+  padding: 10px 20px
+  border: 2px solid #17bf63
+  background-color: transparent
+  border-radius: 25px
+  -webkit-transition: all linear 0.5s
+  transition: all linear 0.5s
+
+  a
+    /* font-family: Courgette;
+    text-decoration: none
+    color: #17bf63
+    -webkit-transition: all linear 0.5s
+    transition: all linear 0.5s
+
+  &:hover
+    background-color: #17bf63
+    border: 2px solid transparent
+
+    a
+      color: #e0e0e0
+
+/* Vector Section Ends
+
+/* Counter Section Starts
+
+.counter-area
+  padding: 90px 0px 10px
+
+  h1
+    /* font-family: Pacifico;
+    font-size: 30px
+    display: inline-table
+    color: #17bf63
+
+  h2
+    color: #15202b
+
+  p
+    /* font-family: Poppins;
+    color: #794bc4
+    font-size: 20px
+
+/* Counter  Section Ends
+
+/* Banner  Section Starts
+
+.banner
+  background-position: center
+  background-repeat: no-repeat
+  background-image: url()
+  background-size: cover
+  background-attachment: fixed
+
+.banner-overlay
+  padding: 200px 0px
+
+.banner
+  h1
+    color: #e0245e
+    font-family: Pacifico
+
+  p
+    margin-top: 20px
+    color: #e9dddd
+
+.banner_color
+  background-color: rgba(0, 0, 0, 0.438)
+
+/* Banner Section Ends
+
+/********************* Index.html **********************
+
+/********************* Resources.html **********************
+
+.card
+  text-align: center
+  -webkit-box-align: center
+  -ms-flex-align: center
+  align-items: center
+  padding: 50px 100px
+  border-radius: 30px
+  background: #dcd0d0
+  box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef
+  margin-bottom: 70px
+
+.bce, .chem, .math, .ntf, .phy
+  margin-top: 230px
+
+.section-title
+  width: 100%
+  padding-bottom: 40px
+  font-size: 48px
+
+  h1
+    /* font-family: "Pacifico";
+    font-weight: 900
+    color: #17bf63
+    font-size: 26px
+    font-weight: 400
+
+h2
+  /* font-family: "Pacifico";
+  font-weight: 900
+  color: #17bf63
+  font-size: 26px
+  font-weight: 400
+
+section table
+  /* font-family: Poppins;
+  width: 100%
+
+  tr
+    th
+      color: #15202b
+
+    td
+      padding: 10px
+      border-style: none
+      height: 50px
+      border-color: #fdfdfd61
+      color: #15202b
+
+      &:nth-child(3)
+        font-size: 15px
+
+.link a
+  width: 100%
+  text-decoration: none
+  color: inherit
+  background: #794bc4
+  padding: 10px 5px
+  border-radius: 5px
+  -webkit-transition-duration: 0.3s
+  transition-duration: 0.3s
+  display: inline-block
+  color: #d4cccc
+
+  &:hover
+    opacity: 0.8
+
+/********************* Resources.html **********************
+
+/********************* Syllabus.html **********************
+
+.sylb
+  margin-top: 230px
+
+.syllabus
+  padding: 20px 0px 40px
+
+  .section-title
+    padding-bottom: 60px
+
+.level
+  h2
+    margin-bottom: 30px
+    color: #17bf63
+
+  h5
+    padding: 10px 0px
+
+.sy-link a
+  background: #794bc4
+  text-decoration: none
+  color: wheat
+  display: inline-block
+  padding: 5px 10px
+  border-radius: 10px
+  margin: 8px 0px
+  -webkit-transition-duration: 0.3s
+  transition-duration: 0.3s
+
+  &:hover
+    opacity: 0.5
+
+.pdf h2
+  margin-bottom: 30px
+  color: #17bf63
+
+/********************* Syllabus.html **********************
+
+/********************* Accessories.html **********************
+/* Bus Section Starts
+
+.bus-route
+  margin-top: 230px
+  padding: 10px
+
+  h2
+    /* font-family: Pacifico;
+    color: #e0245e
+
+  img
+    max-width: 100%
+
+.bus1, .bus2, .bus3, .bus4
+  margin: 0
+
+/* Bus Section Ends
+
+/* Routine Section Starts
+
+.routine
+  margin-top: 80px
+
+  img
+    max-width: 100%
+
+.section-title .btn
+  border: 2px solid #794bc4
+  transition: all linear 0.5s
+  background-color: #794bc4
+
+  a
+    color: #e0e0e0
+    transition: all linear 0.3s
+    font-size: 20px
+
+  &:hover
+    background-color: transparent
+    border: 2px solid #794bc4
+    color: #794bc4
+
+    a
+      color: #794bc4
+
+/* Routine Section Starts
+/********************* Accessories.html **********************
+
+/********************* Developer.html **********************
+
+.developedBy
+  padding: 10px 10px 20px
+
+  h5
+    /* font-family: "Pacifico";
+    margin: 20px 0px
+    color: #17bf63
+
+  ul
+    display: inline-block
+
+    li
+      a i
+        -webkit-transition: all linear 0.3s
+        transition: all linear 0.3s
+
+      .fa-facebook-square:hover
+        color: #315aaa
+
+      .fa-twitter:hover
+        color: #19c6f1
+
+        list-style: none
+
+      a i
+        -webkit-transition: all linear 0.3s
+        transition: all linear 0.3s
+
+      .fa-envelope:hover
+        color: brown
+
+      .fa-github:hover
+        opacity: 0.5
+
+      .fa-discord:hover
+        color: #7289d9
+
+      .fa-linkedin-in:hover
+        color: #0e76a8
+
+  h1
+    font-family: Pacifico
+    color: #e0245e
+
+  p
+    /* font-family: "Poppins";
+    color: #354066
+
+  a
+    color: #2d2d2d
+    text-decoration: none
+    font-size: 20px
+
+.dev-icon
+  margin: 150px 0px
+
+  img
+    max-width: 100%
+
+/********************* Developer.html **********************
+
+/* Footer Starts
+
+footer
+  text-align: center
+  padding: 70px 0px 0px
+  border-radius: 30px 30px 0px 0px
+  background: #dcd0d0
+  box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef
+  position: relative
+  color: #2d2d2d
+
+  ul
+    text-align: left
+
+    li
+      list-style-type: none
+      padding: 5px 0px
+
+      span
+        /* font-family: Pacifico;
+        color: #e0245e
+        font-size: 26px
+        display: inline-block
+        padding: 5px 0px
+
+      a
+        text-decoration: none
+        display: inline-block
+        color: #2d2d2d
+        -webkit-transition-duration: 0.3s
+        transition-duration: 0.3s
+        font-family: Poppins
+
+        &:hover
+          color: rgba(165, 42, 42, 0.712)
+
+  .overlaybttn
+    position: absolute
+    bottom: 90px
+    right: 40px
+
+    a
+      font-size: 20px
+
+.butex-logo
+  max-width: 30%
+
+h4
+  /* font-family: Pacifico;
+  color: #e0245e
+
+h5
+  /* font-family: Courgette;
+  color: #e0245e
+
+.cpy-rgt
+  font-size: 20px
+
+  /* font-family: Pacifico;
+  font-weight: 400
+  padding: 20px 0px 0px
+
+  span a
+    text-decoration: none
+    color: #e0245e
+    font-weight: 500
+
+.rotating
+  max-width: 50%
+
+  /* -webkit-transition: all linear 0.5s;
+   *transition: all linear 0.5s;
+   *-webkit-animation: rotating 7s linear infinite;
+   *animation: rotating 7s linear infinite;
+
+.foot_bg img
+  max-width: 100%
+
+/* Footer Ends
+
+/************* Responsive ***************
+@media (max-width: 1199px)
+  body
+    width: 100%
+    padding: 10px 0px
+
+  header
+    padding: 20px 0px
+
+  .logo
+    width: 100px
+
+  .overlaybttn
+    margin: 0px 0px
+
+    a
+      i, span
+        font-size: 14px
+
+  section
+    padding: 30px 30px
+
+    table tr
+      display: -webkit-box
+      display: -ms-flexbox
+      display: flex
+      -ms-flex-wrap: wrap
+      flex-wrap: wrap
+      -webkit-box-pack: center
+      -ms-flex-pack: center
+      justify-content: center
+      border-bottom: 1px groove white
+      padding: 25px
+
+      td
+        padding: 20px 5px
+        width: 33.33%
+
+        &:nth-child(4)
+          width: 100% !important
+
+      th
+        padding: 10px 5px
+        width: 33.33%
+
+        &:nth-child(4)
+          width: 100% !important
+
+        &:nth-child(5)
+          width: 100%
+
+@media (max-width: 991px)
+  body
+    padding: 10px 0px
+
+  .foot_bg img
+    max-width: 100% !important
+
+  .dev-icon
+    margin: 150px 0px 30px
+
+  .banner-overlay
+    padding: 100px 0px
+
+  .bus-route .card
+    padding: 30px
+
+  .routine .card
+    padding: 20px 10px 0px
+    border-radius: 20px
+
+@media (max-width: 767px)
+  body
+    padding: 10px 10px 0px !important
+
+  .cpy-rgt
+    font-size: 12px
+
+  .typer h1
+    font-size: 22px
+
+  .foot_bg img
+    max-width: 100% !important
+
+  .col-sm-6
+    flex: 0 0 auto !important
+    width: 100%
+
+@media (max-width: 599px)
+  .banner
+    border-radius: 15px
+    background-position: bottom
+
+    p
+      font-size: 14px
+
+  .banner-overlay
+    padding: 100px 0px
+    width: 100%
+
+  .dev-icon
+    margin: 150px 0px 30px
+
+  .social
+    padding: 0
+
+  .foot_bg img
+    max-width: 100% !important
+
+  .vct
+    h1
+      color: #e0245e
+      font-size: 26px
+
+    p
+      margin-top: 15px
+      font-size: 13px
+      font-weight: 300
+      line-height: 1.7
+
+  .vct2, .vct3
+    margin-top: 15px
+    font-size: 13px
+    font-weight: 300
+    line-height: 1.7
+
+    h1
+      color: #e0245e
+      font-size: 26px
+
+  .vct4
+    h1
+      color: #e0245e
+      font-size: 26px
+
+    p
+      margin-top: 15px
+      font-size: 13px
+      font-weight: 300
+      line-height: 1.7
+
+  .btn
+    margin-top: 0px
+    padding: 7px 15px
+    border: 2px solid #17bf63
+    background-color: transparent
+    border-radius: 25px
+    -webkit-transition: all linear 0.5s
+    transition: all linear 0.5s
+
+  .day-message
+    font-size: 26px
+
+  .date
+    font-size: 20px
+
+  .day-text
+    margin-top: 117px
+
+  header
+    padding: 30px 0px 40px !important
+    padding: 10px 0px
+
+  .syllabus
+    padding: 0
+
+  .card
+    text-align: center
+    -webkit-box-align: center
+    -ms-flex-align: center
+    align-items: center
+    padding: 30px 0px
+
+  .typer h1
+    font-size: 22px
+
+  .bce, .chem, .math, .ntf, .phy
+    margin-top: 150px
+
+  .sylb
+    margin-top: 115px
+
+  .bus-route
+    margin-top: 115px
+
+    img
+      max-width: 90%
+
+  .section-title h1
+    font-size: 30px !important
+    font-size: 20px
+    margin-top: 20px
+
+  .overlaybttn a
+    i, span
+      font-size: 15px !important
+
+  section
+    padding: 10px 10px
+
+    table tr
+      th
+        font-size: 16px !important
+        padding: 10px 5px
+        width: 100%
+        font-size: 12px
+
+        &:first-child, &:nth-child(2)
+          width: 50% !important
+
+      td
+        width: 100%
+
+        &:first-child, &:nth-child(2)
+          width: 50% !important
+
+  footer
+    position: relative
+
+    .overlaybttn
+      bottom: 98px !important
+      right: 19px
+
+    ul li
+      span
+        font-size: 15px
+        color: #e0245e
+        font-size: 18px
+
+      a
+        font-size: 15px
+
+      h4
+        font-size: 17px
+
+      h5
+        font-size: 16px
+
+  .logo
+    width: 100%
+
+    img
+      width: 30%
+      margin: auto
+
+  .header-title
+    width: 100%
+    margin-top: 20px
+    margin-bottom: 30px
+
+  h4, h5
+    color: #e0245e
+    font-size: 18px
+
+  .developedBy ul
+    padding: 0 15px !important
+
+  body
+    padding: 0
+
+  .developedBy p
+    color: #354066
+    font-size: 16px
+
+/************* Responsive ***************
+/*# sourceMappingURL=style.css.map
