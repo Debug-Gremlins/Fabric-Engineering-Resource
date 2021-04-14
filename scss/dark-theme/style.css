@@ -12,6 +12,11 @@
   scroll-behavior: smooth;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -169,6 +174,18 @@ body {
   color: #e4e4e4;
 }
 
+.vct hr,
+.vct2 hr,
+.vct3 hr,
+.vct4 hr {
+  width: 20%;
+  background-color: #e0245e;
+  padding: 2px;
+  border-radius: 30px;
+  margin-right: inherit;
+  margin-left: inherit;
+}
+
 .vct h1,
 .vct2 h1,
 .vct3 h1,
@@ -205,7 +222,7 @@ body {
   color: #15202b;
 }
 
-/* Vecctor Section Ends */
+/* Vector Section Ends */
 /* Banner Section Starts */
 .banner {
   background-position: center;
@@ -268,25 +285,26 @@ body {
 .details_content p {
   font-family: 16px;
   font-family: Poppins;
-  color: #15202b;
+  color: #e4eaf0;
+  padding-bottom: 20px;
 }
 
 .pre-con-btn a {
   font-family: Pacifico;
   text-decoration: none;
-  color: #3f2bd4;
+  color: #d0f743;
   padding: 10px 20px;
   border-radius: 10px;
-  border: 1px solid #3f2bd4;
+  border: 1px solid #d0f743;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
 
 .pre-con-btn :hover {
-  background-color: #3f2bd4;
-  color: white;
+  background-color: #d0f743;
+  opacity: 0.7;
+  color: #0e161d;
   border: 1px solid transparent;
-  padding: 20px 0px;
 }
 
 .details_content hr {
@@ -360,7 +378,7 @@ body {
 .section-title h1 {
   font-family: "Pacifico";
   font-weight: 900;
-  color: #17bf63;
+  color: #d0f743;
   font-size: 26px;
   font-weight: 400;
 }
@@ -513,10 +531,15 @@ section table tr td:nth-child(3) {
   padding: 10px 10px 20px;
 }
 
+.developedBy h3 {
+  font-family: "Pacifico";
+  color: #d0f743;
+}
+
 .developedBy h5 {
+  color: #17bf63;
   font-family: "Pacifico";
   margin: 20px 0px;
-  color: #e0245e;
 }
 
 .developedBy ul {
@@ -559,13 +582,13 @@ section table tr td:nth-child(3) {
 }
 
 .developedBy h1 {
+  color: #e0245e;
   font-family: Pacifico;
-  color: #17bf63;
 }
 
 .developedBy p {
   font-family: "Poppins";
-  color: burlywood;
+  color: bisque;
 }
 
 .developedBy a {
@@ -580,6 +603,14 @@ section table tr td:nth-child(3) {
 
 .dev-icon img {
   max-width: 100%;
+}
+
+.shield {
+  margin: 20px 0px;
+}
+
+.shield h1 {
+  font-family: Pacifico;
 }
 
 /***************************** Developer.html ****************************** */
@@ -756,8 +787,6 @@ h5 {
     padding: 120px 0px;
   }
   .details h1 {
-    font-family: Pacifico;
-    color: #e0245e;
     font-size: 29px;
   }
   .developedBy .card {
@@ -785,13 +814,9 @@ h5 {
     padding: 120px 0px;
   }
   .details h1 {
-    font-family: Pacifico;
-    color: #e0245e;
     font-size: 29px;
   }
   .details_content p {
-    font-family: Poppins;
-    color: #15202b;
     font-size: 15px;
   }
 }
@@ -836,39 +861,27 @@ h5 {
   .foot_bg img {
     max-width: 100% !important;
   }
-  .vct h1 {
-    color: #e0245e;
-    font-size: 26px;
-  }
   .vct p {
     margin-top: 15px;
-    font-family: "Roboto Slab";
     font-size: 13px;
-    font-weight: 300;
     line-height: 1.7;
   }
   .vct2,
   .vct3 {
     margin-top: 15px;
-    font-family: "Roboto Slab";
     font-size: 13px;
-    font-weight: 300;
     line-height: 1.7;
   }
   .vct2 h1,
   .vct3 h1 {
-    color: #e0245e;
     font-size: 26px;
   }
   .vct4 h1 {
-    color: #e0245e;
     font-size: 26px;
   }
   .vct4 p {
     margin-top: 15px;
-    font-family: "Roboto Slab";
     font-size: 13px;
-    font-weight: 300;
     line-height: 1.7;
   }
   .btn {
@@ -881,12 +894,10 @@ h5 {
     transition: all linear 0.5s;
   }
   .day-message {
-    color: wheat;
     font-size: 26px;
   }
   .date {
     font-size: 20px;
-    color: #17bf63;
   }
   .day-text {
     margin-top: 117px;
@@ -934,7 +945,7 @@ h5 {
     font-size: 15px !important;
   }
   section {
-    padding: 10px 10px;
+    padding: 0px;
   }
   section table tr th {
     font-size: 16px !important;
@@ -965,8 +976,6 @@ h5 {
     left: 30px;
   }
   footer ul li span {
-    font-size: 15px;
-    color: #e0245e;
     font-size: 18px;
   }
   footer ul li a {
@@ -992,7 +1001,6 @@ h5 {
   }
   h4,
   h5 {
-    color: #e0245e;
     font-size: 18px;
   }
   .details_content {
@@ -1001,10 +1009,9 @@ h5 {
   .details {
     padding: 10px 0px;
   }
-  .details_content p {
-    font-family: Poppins;
-    color: #15202b;
-    font-size: 15px;
+  .developedBy p {
+    padding: 18px 18px 0px;
+    font-size: 14px;
   }
 }
 
