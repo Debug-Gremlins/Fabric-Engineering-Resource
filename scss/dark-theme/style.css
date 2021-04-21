@@ -446,6 +446,53 @@ section table tr td:nth-child(3) {
   font-size: 15px;
 }
 
+.ct table tr th {
+  padding: 0px 15px;
+  font-family: "Courgette";
+  font-weight: 700;
+  font-size: 24px;
+  color: lightgreen;
+}
+.ct table tr td:nth-child(2) {
+  color: #e0245e;
+  font-weight: 600;
+  font-size: 23px;
+  font-family: "Courgette";
+}
+.ct table tr td:nth-child(1) {
+  font-weight: 400;
+  letter-spacing: 1.2;
+  font-size: 22px;
+  color: wheat;
+  font-family: "Courgette";
+  /* border-left: 2px solid #d0f743;
+  border-bottom: 2px solid #d0f743; */
+}
+.ct table tr td:nth-child(3) {
+  color: #d0f743;
+  font-family: "Courgette";
+  font-size: 20px;
+  font-weight: 600;
+  /* border-right: 2px solid pink;
+  border-bottom: 2px solid pink; */
+}
+.ct table tr td:nth-child(4) {
+  color: papayawhip;
+}
+.ct table tr td:nth-child(5) {
+  color: papayawhip;
+}
+.ct table tr td:nth-child(6) {
+  color: papayawhip;
+}
+.ct .section-title h1 {
+  color: #e0245e;
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #61597c;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
 .link a {
   width: 100%;
   text-decoration: none;
@@ -1051,6 +1098,20 @@ h5 {
   }
   .typer {
     padding: 30px 0px 10px;
+  }
+  .ct table tr td {
+    height: auto;
+  }
+  .ct table tr th {
+    height: auto;
+  }
+  .ct table tr td:nth-child(1) {
+    border-left: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+  }
+  .ct table tr td:nth-child(3) {
+    border-right: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
   }
 }
 
