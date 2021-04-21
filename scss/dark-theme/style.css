@@ -1152,13 +1152,35 @@ h5 {
     height: auto;
     font-family: Poppins;
   }
+/* 
+  .ct table tr th:nth-child(1),
+  .ct table tr th:nth-child(3),
+  .ct table tr th:nth-child(4),
+  .ct table tr th:nth-child(5) {
+    border-left: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  } */
+
   .ct table tr td:nth-child(1) {
     border-left: 2px solid whitesmoke;
     border-bottom: 2px solid whitesmoke;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
-  .ct table tr td:nth-child(3) {
+  .ct table tr td:nth-child(2) {
     border-right: 2px solid whitesmoke;
     border-bottom: 2px solid whitesmoke;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .ct table tr td:nth-child(3) {
+    border-bottom: 2px solid whitesmoke;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-left: 2px solid whitesmoke;
+    border-bottom-right-radius: 15px;
   }
   .ct .section-title {
     padding: 0px;
