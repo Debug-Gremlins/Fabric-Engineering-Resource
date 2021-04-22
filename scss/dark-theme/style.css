@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
 /* Universal CSS */
 * {
   padding: 0;
@@ -448,31 +450,29 @@ section table tr td:nth-child(3) {
 
 .ct table tr th {
   padding: 0px 15px;
-  font-family: "Courgette";
-  font-weight: 700;
-  font-size: 24px;
-  color: lightgreen;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 25px;
+  color: #baebf7;
 }
 .ct table tr td:nth-child(2) {
   color: #e0245e;
+  font-size: 25px;
+  font-family: "Lobster Two";
   font-weight: 600;
-  font-size: 23px;
-  font-family: "Courgette";
 }
 .ct table tr td:nth-child(1) {
   font-weight: 400;
-  letter-spacing: 1.2;
   font-size: 22px;
   color: wheat;
-  font-family: "Courgette";
+  font-family: "Lobster Two";
   /* border-left: 2px solid #d0f743;
   border-bottom: 2px solid #d0f743; */
 }
 .ct table tr td:nth-child(3) {
   color: #d0f743;
-  font-family: "Courgette";
-  font-size: 20px;
-  font-weight: 600;
+  font-family: "Lobster Two";
+  font-size: 22px;
   /* border-right: 2px solid pink;
   border-bottom: 2px solid pink; */
 }
@@ -489,7 +489,7 @@ section table tr td:nth-child(3) {
   color: #e0245e;
   display: inline-block;
   padding: 20px;
-  border: 2px solid #61597c;
+  border: 2px solid #d0f743;
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -1152,7 +1152,7 @@ h5 {
     height: auto;
     font-family: Poppins;
   }
-/* 
+  /* 
   .ct table tr th:nth-child(1),
   .ct table tr th:nth-child(3),
   .ct table tr th:nth-child(4),
@@ -1177,7 +1177,6 @@ h5 {
   }
   .ct table tr td:nth-child(3) {
     border-bottom: 2px solid whitesmoke;
-    border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     border-left: 2px solid whitesmoke;
     border-bottom-right-radius: 15px;
