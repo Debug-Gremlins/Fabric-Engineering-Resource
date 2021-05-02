@@ -596,7 +596,7 @@ section table tr td:nth-child(3) {
 /***************************** Accessories.html ****************************** */
 /* Bus Section Starts */
 .bus-route {
-  margin-top: 230px;
+  margin-top: 30px;
   padding: 10px;
 }
 
@@ -642,6 +642,9 @@ section table tr td:nth-child(3) {
   opacity: 0.5;
 }
 
+.ct1 {
+  margin-top: 230px;
+}
 /* Routine Section Ends */
 /***************************** Accessories.html ****************************** */
 /***************************** Developer.html ****************************** */
@@ -1109,9 +1112,9 @@ h5 {
   .sylb {
     margin-top: 115px;
   }
-  .bus-route {
+  /* .bus-route {
     margin-top: 115px;
-  }
+  } */
   .bus-route img {
     max-width: 90%;
   }
@@ -1246,7 +1249,7 @@ h5 {
 
   .sylb table tr td:first-child,
   section table tr td:nth-child(2) {
-    width: 100% !important;
+    width: 50% !important;
   }
   .sylb .section-title {
     width: 100%;
@@ -1261,6 +1264,9 @@ h5 {
     color: #e0245e;
     font-size: 26px;
     font-weight: 400;
+  }
+  .ct1 {
+    margin-top: 150px;
   }
 }
 
