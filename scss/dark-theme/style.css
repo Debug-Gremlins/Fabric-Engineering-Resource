@@ -734,6 +734,8 @@ section table tr td:nth-child(3) {
   font-family: Pacifico;
 }
 
+.dev-card {
+}
 /***************************** Developer.html ****************************** */
 /* Footer Section Starts */
 footer {
@@ -988,6 +990,10 @@ h5 {
   .routine .card {
     padding: 20px;
   }
+
+  .dev-card {
+    margin-top: 200px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1043,6 +1049,9 @@ h5 {
   .bus4 {
     margin: 0;
     padding: 10px;
+  }
+  .dev-card {
+    margin-top: 20px;
   }
 }
 
@@ -1291,6 +1300,9 @@ h5 {
   }
   .ct1 {
     margin-top: 150px;
+  }
+  .dev-card {
+    margin-top: 20px;
   }
 }
 
