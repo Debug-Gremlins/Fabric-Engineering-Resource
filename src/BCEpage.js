@@ -1,10 +1,10 @@
 import React from 'react'
-import BCEsec from './components/sections/BCE'
+import CustomTable from '../src/components/Customs/Table'
 
 function BCE() {
     return (
         <div>
-            <BCEsec />
+            <CustomTable />
         </div>
     )
 }

@@ -10,7 +10,7 @@ import Math from "./MathPage";
 import Ntf from "./NtfPage";
 import Physics from "./PhysicsPage";
 import AccessoriesPage from "./AccessoriesPage";
-import Footer from '../src/components/includes/Footer'
+import Footer from "../src/components/includes/Footer";
 
 function App() {
   return (

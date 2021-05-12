@@ -1,0 +1,59 @@
+import React from "react";
+import data from "../../data.json";
+import { Component } from "react";
+
+export class CustomTable extends Component {
+  render() {
+    return (
+      <div>
+        <section className="bce" data-aos="fade-up" data-aos-duration={3000}>
+          <div className="container">
+            <div className="row justify-content-center">
+              <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
+                <div className="section-title">
+                  <h1>Business &amp; Communicative English (BCE)</h1>
+                </div>
+                <div className="overlaybttn">
+                  <a id="topbce" href="#bottombce">
+                    <i className="fa fa-arrow-circle-down" aria-hidden="true" />
+                    <span>Bottom</span>
+                  </a>
+                </div>
+                <table>
+                  <tr>
+                    <th>Date</th>
+                    <th>Lecturer</th>
+                    <th>Discussed Topics</th>
+                    <th colSpan={3}>Resources</th>
+                  </tr>
+                  <tbody>
+                    {data.map((row) => (
+                      <tr key={row.key}>
+                        <td>{row.Date}</td>
+                        <td>{row.Lecturer}</td>
+                        <td>{row.DiscussedTopics}</td>
+                        <td className="link">
+                          <a
+                            href={row.DriveLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Lecture Video
+                          </a>
+                        </td>
+                        <td>{row.Option1}</td>
+                        <td>{row.Option2}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    );
+  }
+}
+
+export default CustomTable;
