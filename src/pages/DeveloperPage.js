@@ -1,5 +1,5 @@
 import React from 'react'
-import Developer from "./components/sections/Developer";
+import Developer from "../components/sections/Developer";
 
 function DeveloperPage() {
     return (

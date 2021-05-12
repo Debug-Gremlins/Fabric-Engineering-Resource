@@ -1,5 +1,5 @@
 import React from 'react'
-import NTF from "../src/components/sections/Ntf";
+import NTF from "../components/sections/Ntf";
 
 function NtfPage() {
     return (

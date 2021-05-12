@@ -1,29 +1,29 @@
-import React from 'react'
+import React, { Component } from "react";
 
-function DetailsComp(props) {
+class DetailsComp extends Component {
+  render() {
     return (
       <div>
         <div className="row">
           <div className="details_content col-xl-6 col-lg-6 col-md-6 col-sm-12">
-            <h1>{props.detailsTitle}</h1>
+            <h1>{this.props.detailsTitle}</h1>
             <hr />
-            <p>
-              {props.detailsParagraph}
-            </p>
+            <p>{this.props.detailsParagraph}</p>
             <div className="pre-con-btn">
               <a
                 href="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
                 target="_blank"
                 rel="noreferrer"
               >
-                {props.detailsBtn}
+                {this.props.detailsBtn}
               </a>
             </div>
           </div>
-          <div className={props.clsName} />
+          <div className={this.props.clsName} />
         </div>
       </div>
     );
+  }
 }
 
-export default DetailsComp
+export default DetailsComp;

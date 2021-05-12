@@ -1,6 +1,6 @@
 import React from "react";
 import Rotimg from "../../assets/exs.png";
-import RoutineCard from "../Customs/RoutineCard";
+import RoutineCard from "../customs/RoutineCard";
 
 function Routine() {
   return (
@@ -14,16 +14,6 @@ function Routine() {
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <div className="card">
                 <div className="section-title">
-                  {/* <h1>PDF Folder</h1>
-                  <div className="btn">
-                    <a
-                      href="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Visit Here
-                    </a>
-                  </div> */}
                   <RoutineCard
                     title="PDF Folder"
                     driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"

@@ -3,7 +3,7 @@ import AzimpurBus from "../../assets/Azimpur Route.png";
 import UttaraBus from "../../assets/Uttara Route.png";
 import MirpurBus from "../../assets/Mirpur Route.png";
 import PurandhkBus from "../../assets/Jatrabari Route.png";
-import Card from "../Customs/BusCard";
+import Card from "../customs/BusCard";
 
 function BusRoute() {
   return (

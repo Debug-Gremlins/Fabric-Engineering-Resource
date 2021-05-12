@@ -1,6 +1,6 @@
 import React from "react";
-import DetailsDataI from "../Customs/DetailsCompI";
-import DetailsDataII from "../Customs/DetailsCompII";
+import DetailsDataI from "../customs/DetailsCompI";
+import DetailsDataII from "../customs/DetailsCompII";
 
 function Details() {
   return (

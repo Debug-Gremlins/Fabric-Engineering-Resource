@@ -1,5 +1,5 @@
 import React from 'react'
-import Chemistry from './components/sections/Chemistry'
+import Chemistry from '../components/sections/Chemistry'
 
 function ChemistryPage() {
     return (

@@ -1,15 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 
-function CouterComp(props) {
-  return (
-    <div>
-      <div className="card">
-        <h1>{props.title}</h1>
-        <h2 className="count">{props.num}</h2>
-        <p>{props.paragraph}</p>
+class CouterComp extends Component {
+  render() {
+    return (
+      <div>
+        <div className="card">
+          <h1>{this.props.title}</h1>
+          <h2 className="count">{this.props.num}</h2>
+          <p>{this.props.paragraph}</p>
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default CouterComp;

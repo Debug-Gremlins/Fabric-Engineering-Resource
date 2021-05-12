@@ -1,5 +1,5 @@
 import React from 'react'
-import Physics from '../src/components/sections/Physics';
+import Physics from '../components/sections/Physics';
 
 function PhysicsPage() {
     return (

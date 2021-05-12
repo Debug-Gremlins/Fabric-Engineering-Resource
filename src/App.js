@@ -1,15 +1,15 @@
 import React from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
-import HomePage from "./HomePage";
 import NavigationBar from "./components/includes/NavigationBar";
-import SyllabusPage from "./SyllabusPage";
-import DeveloperPage from "./DeveloperPage";
-import BCE from "./BCEpage";
-import Chemistry from "./ChemistryPage";
-import Math from "./MathPage";
-import Ntf from "./NtfPage";
-import Physics from "./PhysicsPage";
-import AccessoriesPage from "./AccessoriesPage";
+import HomePage from "./pages/HomePage";
+import SyllabusPage from "./pages/SyllabusPage";
+import BCE from "./pages/BCEpage";
+import Chemistry from "./pages/ChemistryPage";
+import Math from "./pages/MathPage";
+import Ntf from "./pages/NtfPage";
+import Physics from "./pages/PhysicsPage";
+import AccessoriesPage from "./pages/AccessoriesPage";
+import DeveloperPage from "./pages/DeveloperPage";
 import Footer from "../src/components/includes/Footer";
 
 function App() {

@@ -1,5 +1,5 @@
 import React from "react";
-import CustomCount from "../Customs/CouterComp";
+import CustomCount from "../customs/CouterComp";
 
 function CounterUp() {
   return (

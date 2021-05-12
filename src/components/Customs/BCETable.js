@@ -1,8 +1,8 @@
 import React from "react";
-import data from "../../data.json";
+import data from "../../json/bce-data.json";
 import { Component } from "react";
 
-export class CustomTable extends Component {
+class BCETable extends Component {
   render() {
     return (
       <div>
@@ -56,4 +56,4 @@ export class CustomTable extends Component {
   }
 }
 
-export default CustomTable;
+export default BCETable;

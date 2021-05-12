@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class RoutineCard extends Component {
+class RoutineCard extends Component {
   render() {
     return (
       <div>
