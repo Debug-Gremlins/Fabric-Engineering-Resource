@@ -47,6 +47,12 @@ class BCETable extends Component {
                     ))}
                   </tbody>
                 </table>
+                <div className="overlaybttn">
+                  <a id="bottomchem" href="#topbce">
+                    <i className="fa fa-arrow-circle-up" aria-hidden="true" />
+                    <span>Top</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>

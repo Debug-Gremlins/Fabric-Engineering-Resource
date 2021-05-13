@@ -27,7 +27,7 @@ a {
 body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background: #e0e0e0;
+  background: #bbb1b1;
   color: #e4e4e4;
   overflow-x: hidden;
   font-weight: 400;
@@ -265,7 +265,7 @@ section table {
 .btn {
   margin-top: 30px;
   padding: 10px 20px;
-  border: 2px solid #17bf63;
+  border: 2px solid #794bc4;
   background-color: transparent;
   border-radius: 25px;
   -webkit-transition: all linear 0.5s;
@@ -275,14 +275,14 @@ section table {
 .btn a {
   font-family: Pacifico;
   color: #15202b;
-  color: #e9cece;
+  color: #794bc4;
   text-decoration: none;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
 
 .btn:hover {
-  background-color: #17bf63;
+  background-color: #794bc4;
   border: 2px solid transparent;
 }
 
@@ -434,9 +434,11 @@ section table {
   -webkit-box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
   box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
   border-radius: 30px; */
-  background: #dcd0d0;
-  -webkit-box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef;
+  background: #a89f9f;
+  background: linear-gradient(145deg, #c8bdbd, #a89f9f);
+  box-shadow: 20px 20px 60px #9f9696, -20px -20px 60px #d7cccc;
   margin-bottom: 70px;
+  border: 1px solid darkgray;
 }
 
 /* Card Section Ends */
@@ -483,53 +485,6 @@ section table tr td:nth-child(3) {
   font-size: 15px;
 }
 
-.ct table tr th {
-  padding: 0px 15px;
-  font-family: "Poppins";
-  font-weight: 400;
-  font-size: 25px;
-  color: #0b0b0b;
-}
-.ct table tr td:nth-child(2) {
-  color: #e0245e;
-  font-size: 25px;
-  font-family: "Lobster Two";
-  font-weight: 600;
-}
-.ct table tr td:nth-child(1) {
-  font-weight: 400;
-  font-size: 22px;
-  color: wheat;
-  font-family: "Lobster Two";
-  /* border-left: 2px solid #d0f743;
-  border-bottom: 2px solid #d0f743; */
-}
-.ct table tr td:nth-child(3) {
-  color: #d0f743;
-  font-family: "Lobster Two";
-  font-size: 22px;
-  /* border-right: 2px solid pink;
-  border-bottom: 2px solid pink; */
-}
-.ct table tr td:nth-child(4) {
-  color: papayawhip;
-}
-.ct table tr td:nth-child(5) {
-  color: papayawhip;
-}
-.ct table tr td:nth-child(6) {
-  color: papayawhip;
-}
-.ct .section-title h1 {
-  color: #e0245e;
-  display: inline-block;
-  padding: 20px;
-  border: 2px solid #d0f743;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  font-family: Lobster Two;
-  font-weight: 600;
-}
 .link a {
   width: 100%;
   text-decoration: none;
@@ -682,7 +637,7 @@ section table tr td:nth-child(3) {
 }
 
 .btn a {
-  color: #17bf63;
+  color: #794bc4;
 }
 
 .rot_link:hover {
@@ -701,12 +656,13 @@ section table tr td:nth-child(3) {
 }
 
 .developedBy h3 {
-  font-family: "Pacifico";
+  font-family: "Lobster Two";
+  font-weight: 600;
   color: #e0245e;
 }
 
 .developedBy h5 {
-  color: #17bf63;
+  color: #794bc4;
   font-family: "Pacifico";
   margin: 20px 0px;
 }
@@ -795,8 +751,9 @@ footer {
   background: #15202b;
   -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
   box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
-  background: #dcd0d0;
-  -webkit-box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef;
+  background: linear-gradient(145deg, #c8bdbd, #a89f9f);
+  box-shadow: 20px 20px 60px #9f9696, -20px -20px 60px #d7cccc;
+  border: 1px solid darkgray;
   position: relative;
 }
 footer h3 {
@@ -1197,7 +1154,6 @@ footer .rotating {
   .btn {
     margin-top: 0px;
     padding: 7px 15px;
-    border: 2px solid #17bf63;
     background-color: transparent;
     border-radius: 25px;
     -webkit-transition: all linear 0.5s;
