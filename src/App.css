@@ -25,7 +25,7 @@ a {
 
 body {
   font-family: Poppins, sans-serif;
-  background: #15202b;
+  background: #e0e0e0;
   color: #e4e4e4;
   overflow-x: hidden;
 }
@@ -97,16 +97,19 @@ section table {
 .overlaybttn .fa-arrow-circle-down,
 .overlaybttn .fa-arrow-circle-up {
   color: #17bf63;
+  color: #e0245e;
 }
 
 .overlaybttn a {
   color: white;
+  color: #e0245e;
   /* font-family: Pacifico; */
   display: inline-block;
   text-decoration: none;
   padding: 10px 10px;
   border-radius: 20px;
   background: #15202b;
+  background: #cbb3b3;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
@@ -114,6 +117,8 @@ section table {
 .overlaybttn a:hover {
   -webkit-box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
   box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
+  -webkit-box-shadow: 2px 2px 6px #ad9898, -2px -2px 6px #e9cece;
+  box-shadow: 2px 2px 6px #ad9898, -2px -2px 6px #e9cece;
 }
 
 .overlaybttn a i {
@@ -229,6 +234,7 @@ section table {
 .vct3 p,
 .vct4 p {
   color: #e4e4e4;
+  color: #15202b;
 }
 
 .vct hr,
@@ -264,8 +270,8 @@ section table {
 .btn a {
   font-family: Pacifico;
   color: #15202b;
+  color: #e9cece;
   text-decoration: none;
-  color: #17bf63;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
@@ -319,6 +325,7 @@ section table {
 
 .counter-area h2 {
   color: wheat;
+  color: #15202b;
 }
 
 .counter-area p {
@@ -342,7 +349,7 @@ section table {
 .details_content p {
   font-family: 16px;
   font-family: Poppins;
-  color: #e4eaf0;
+  color: #0e161d;
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -350,18 +357,17 @@ section table {
 .pre-con-btn a {
   font-family: Pacifico;
   text-decoration: none;
-  color: #d0f743;
+  color: #e0245e;
   padding: 10px 20px;
   border-radius: 10px;
-  border: 1px solid #d0f743;
+  border: 1px solid #e0245e;
   -webkit-transition: all linear 0.5s;
   transition: all linear 0.5s;
 }
 
 .pre-con-btn :hover {
-  background-color: #d0f743;
-  opacity: 0.7;
-  color: #0e161d;
+  background-color: #e0245e;
+  color: #e9dddd;
   border: 1px solid transparent;
 }
 
@@ -419,9 +425,12 @@ section table {
   align-items: center;
   padding: 50px 100px;
   border-radius: 20px;
-  background: #15202b;
+  /* background: #15202b;
   -webkit-box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
   box-shadow: 35px 35px 56px #121c25, -35px -35px 56px #182431;
+  border-radius: 30px; */
+  background: #dcd0d0;
+  -webkit-box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef;
   margin-bottom: 70px;
 }
 
@@ -436,14 +445,13 @@ section table {
 .section-title h1 {
   /* font-family: "Pacifico"; */
   font-weight: 900;
-  color: #d0f743;
+  color: #e0245e;
   font-size: 26px;
   font-weight: 400;
 }
 
 h2 {
   /* font-family: "Pacifico"; */
-  font-weight: 900;
   color: #17bf63;
   font-size: 26px;
   font-weight: 400;
@@ -453,7 +461,12 @@ section table {
   width: 100%;
 }
 
+section table tr th {
+  color: #1c2a39;
+}
+
 section table tr td {
+  color: #0b0b0b;
   padding: 10px;
   border-style: none;
   font-weight: 400;
@@ -470,7 +483,7 @@ section table tr td:nth-child(3) {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 25px;
-  color: #baebf7;
+  color: #0b0b0b;
 }
 .ct table tr td:nth-child(2) {
   color: #e0245e;
@@ -517,6 +530,7 @@ section table tr td:nth-child(3) {
   text-decoration: none;
   color: inherit;
   background: #794bc4;
+  color: #e9dddd;
   padding: 10px 5px;
   border-radius: 5px;
   -webkit-transition-duration: 0.3s;
@@ -649,6 +663,7 @@ section table tr td:nth-child(3) {
   background: #794bc4;
   text-decoration: none;
   color: wheat;
+  color: #15202b;
   display: inline-block;
   padding: 10px;
   border-radius: 10px;
@@ -661,12 +676,13 @@ section table tr td:nth-child(3) {
   max-width: 100%;
 }
 
-.btn a{
+.btn a {
   color: #17bf63;
 }
 
 .rot_link:hover {
   opacity: 0.5;
+  color: #fdefef;
 }
 
 .ct1 {
@@ -681,7 +697,7 @@ section table tr td:nth-child(3) {
 
 .developedBy h3 {
   font-family: "Pacifico";
-  color: #d0f743;
+  color: #e0245e;
 }
 
 .developedBy h5 {
@@ -738,10 +754,12 @@ section table tr td:nth-child(3) {
 .developedBy p {
   font-family: "Poppins";
   color: bisque;
+  color: #15202b;
 }
 
 .developedBy a {
   color: wheat;
+  color: #15202b;
   text-decoration: none;
   font-size: 20px;
 }
@@ -767,11 +785,18 @@ section table tr td:nth-child(3) {
 footer {
   text-align: center;
   padding: 70px 0px 30px;
+  margin-top: 40px;
   border-radius: 30px 30px 0px 0px;
   background: #15202b;
   -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
   box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
+  border-radius: 30px;
+  background: #dcd0d0;
+  -webkit-box-shadow: 20px 20px 60px #bbb1b1, -20px -20px 60px #fdefef;
   position: relative;
+}
+footer h3 {
+  color: #15202b;
 }
 
 footer ul {
@@ -796,12 +821,13 @@ footer ul li a {
   text-decoration: none;
   display: inline-block;
   color: #e4e4e4;
+  color: #15202b;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
 footer ul li a:hover {
-  color: wheat;
+  opacity: 0.8;
 }
 
 footer .overlaybttn {
@@ -825,6 +851,7 @@ h5 {
   font-size: 20px;
   font-weight: 400;
   padding: 20px 0px 10px;
+  color: #15202b;
 }
 
 .cpy-rgt span a {
@@ -846,11 +873,11 @@ h5 {
   max-width: 100%;
 }
 
-footer .nav-link{
+footer .nav-link {
   font-style: initial;
 }
 
-footer .nav-item .nav-link{
+footer .nav-item .nav-link {
   font-size: 22px;
   color: #17bf63;
   margin: 10px 0px;
@@ -1119,7 +1146,7 @@ footer .nav-link:hover {
   .foot_bg img {
     max-width: 100% !important;
   }
-  .vct{
+  .vct {
     margin-top: 130px;
   }
   .vct p {
@@ -1353,6 +1380,6 @@ footer .nav-link:hover {
     padding: 30px 10px 50px;
   }
   .vct img {
-  max-width: 100%;
-}
+    max-width: 100%;
+  }
 }

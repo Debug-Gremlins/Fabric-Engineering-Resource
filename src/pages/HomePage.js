@@ -8,8 +8,8 @@ function HomePage() {
   return (
     <div>
       <Vector />
-      <Banner />
       <Counter />
+      <Banner />
       <Details />
     </div>
   );
