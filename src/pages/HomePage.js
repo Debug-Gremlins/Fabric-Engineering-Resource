@@ -3,12 +3,11 @@ import React from "react";
 import Banner from "../components/sections/Banner";
 import Details from "../components/sections/Details";
 import Counter from "../components/sections/CounterUp";
-import VideoNav from '../components/includes/VideoNav'
-
+import HomeNav from "../components/includes/HomeNav"
 function HomePage() {
   return (
     <div>
-      <VideoNav />
+      <HomeNav />
       <Counter />
       <Banner />
       <Details />
