@@ -140,7 +140,7 @@ function Developer() {
                       rel="noreferrer"
                     >
                       <img
-                        src="https://img.shields.io/github/package-json/v/Debug-Gremlins/Fabric-Engineering-Resources?&labelColor=f4eee8&color=important&label=Deployed&logo=Yarn&logoColor=blue&style=plastic"
+                        src="https://img.shields.io/github/package-json/v/Debug-Gremlins/Fabric-Engineering-Resources?&labelColor=f4eee8&color=important&label=yarn Deployed&logo=Yarn&logoColor=blue&style=plastic"
                         alt="cq"
                         srcSet
                       />

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./HomeNav.css";
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
@@ -7,7 +8,7 @@ class HomeNavPart extends Component {
     return (
       <div>
         <div className="top-banner">
-          <div className="top-banner-overlay">
+          <div className="top-bnr-overlay">
             <header>
               <div className="container">
                 <nav className="navbar navbar-expand-lg">
@@ -102,10 +103,25 @@ class HomeNavPart extends Component {
                 </nav>
               </div>
             </header>
+            <div className="home-shield row text-center justify-content-between">
+              <div className="col-lg-6 col-md-6 col-sm-12">
+                <a
+                  href="https://github.com/Debug-Gremlins/Fabric-Engineering-Resource/blob/master/README.md"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="https://img.shields.io/github/package-json/v/Debug-Gremlins/Fabric-Engineering-Resources?&labelColor=f4eee8&color=important&label=yarn Deployed&logo=Yarn&logoColor=blue&style=plastic"
+                    alt="cq"
+                    srcSet
+                  />
+                </a>
+              </div>
+            </div>
             <div className="container">
               <div className="row justify-content-center">
-                <div className="overlay-details col-xl-8 col-lg-9 col-md-9 col-sm-12 col-xsm-12">
-                  <div className="over-details-part text-center">
+                <div className="col-xl-8 col-lg-9 col-md-9 col-sm-12 col-xsm-12">
+                  <div className="top-over-details-part text-center">
                     <h1>Fabric Engineering</h1>
                     <p>
                       Fabric Engineering is one of the basic textile engineering

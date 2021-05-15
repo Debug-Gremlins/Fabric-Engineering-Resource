@@ -160,37 +160,6 @@ h2 {
 /* Overlay Button Ends */
 /***************************** Index.html ******************************** */
 
-.top-banner {
-  height: 100vh;
-}
-.top-banner {
-  background-image: url(../src//assets//topbnrbg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-}
-
-.overlay-details {
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.overlay-details h1 {
-  font-family: "Ubuntu";
-  color: #e0245e;
-  font-size: 5rem;
-}
-
-.overlay-details p {
-  padding-top: 15px;
-  font-size: 20px;
-}
-
 /* Vector Section Ends */
 /* Banner Section Starts */
 .banner {
@@ -860,9 +829,8 @@ footer .rotating {
   header {
     padding: 40px 0px;
   }
-
-  .top-banner {
-    height: 100vh;
+  .top-over-details-part {
+    padding: 240px 0px;
   }
 }
 
@@ -893,17 +861,9 @@ footer .rotating {
     padding: 10px;
   }
 
-  .overlay-details {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  .top-over-details-part {
+    padding: 240px 0px 100px;
   }
-}
-.overlay-details p {
-  padding-top: 15px;
-  font-size: 22px;
 }
 
 @media (max-width: 767px) {
@@ -1095,33 +1055,19 @@ footer .rotating {
   body {
     padding: 0px !important;
   }
-  .overlay-details p {
-    font-size: 17px;
-    padding: 20px;
-  }
-  .overlay-details h1 {
-    margin: 75px 0px 20px;
-    font-size: 45px !important;
-  }
-  .overlay-details {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
     text-align: center;
     background-color: #16443eda !important;
   }
-  @media (max-width: 400px) {
-    .overlay-details {
-      text-align: center;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
+  .top-over-details-part {
+    padding: 185px 0px 100px;
+  }
+  .top-over-details-part h1 {
+    font-size: 30px;
+  }
+
+  .top-over-details-part p {
+    font-size: 16px;
   }
 }

@@ -1,0 +1,33 @@
+.top-banner {
+  background-image: url(../../assets/topbnrbg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-height: auto;
+}
+
+.top-over-details-part {
+  padding: 250px 0px 180px;
+}
+
+.top-over-details-part h1 {
+  font-family: "Ubuntu";
+  color: #e0245e;
+  font-size: 3rem;
+}
+
+.top-over-details-part p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.top-bnr-overlay {
+  background-color: rgba(18, 20, 20, 0.603);
+}
+
+.home-shield{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
