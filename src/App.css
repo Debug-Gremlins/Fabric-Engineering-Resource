@@ -153,9 +153,17 @@ section table {
   display: inline-block;
 }
 h2 {
-  color: #17bf63;
+  color: #093d68;
   font-size: 26px;
   font-weight: 400;
+}
+
+h4 {
+  color: #e0245e;
+}
+
+h5 {
+  color: #15273a;
 }
 /* Overlay Button Ends */
 /***************************** Index.html ******************************** */
@@ -316,7 +324,7 @@ h2 {
 
 .section-title h1 {
   font-weight: 900;
-  color: #e0245e;
+  color: #15202bd1;
   font-size: 26px;
   font-weight: 400;
 }
@@ -326,7 +334,7 @@ section table {
 }
 
 section table tr th {
-  color: #1c2a39;
+  color: #0f253b;
 }
 
 section table tr td {
@@ -390,7 +398,7 @@ section table tr td:nth-child(3) {
 
 .level h2 {
   margin-bottom: 30px;
-  color: #17bf63;
+  color: #0c253a;
 }
 
 .level h5 {
@@ -647,14 +655,6 @@ footer .overlaybttn {
   right: 40px;
 }
 
-h4 {
-  color: #e0245e;
-}
-
-h5 {
-  color: #e0245e;
-}
-
 .cpy-rgt {
   font-size: 20px;
   font-weight: 500;
@@ -760,7 +760,7 @@ footer .rotating {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    border-bottom: 1px groove white;
+    border-bottom: 1px groove rgb(184 105 105 / 45%);
     padding: 25px;
   }
   section table tr td {
@@ -867,7 +867,11 @@ footer .rotating {
 }
 
 @media (max-width: 767px) {
-  body {
+  body .bce,
+  .chem,
+  .math,
+  .ntf,
+  .phy {
     padding: 0px 10px 0px !important;
   }
   .cpy-rgt {
@@ -944,10 +948,10 @@ footer .rotating {
     margin-top: 150px;
   }
   .sylb {
-    margin-top: 115px;
+    margin-top: 150px;
   }
   .bus-route {
-    margin-top: 115px;
+    margin-top: 150px;
   }
   .bus-route img {
     max-width: 90%;
@@ -1041,7 +1045,6 @@ footer .rotating {
 
   .sylb h2 {
     font-weight: 900;
-    color: #e0245e;
     font-size: 26px;
     font-weight: 400;
   }
@@ -1052,9 +1055,6 @@ footer .rotating {
     padding: 30px 10px 50px;
   }
 
-  body {
-    padding: 0px !important;
-  }
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: absolute;
     text-align: center;

@@ -6,9 +6,6 @@ function Syllabus() {
     <div>
       <section className="sylb">
         <div className="container text-center">
-          <div className="section-title">
-            <h1>Syllabus</h1>
-          </div>
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-12 col-sm-12">
               <div className="card">

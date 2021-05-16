@@ -15,11 +15,7 @@ function BusRoute() {
         data-aos-duration={3000}
       >
         <div className="container text-center">
-          <div className="section-title">
-            <h1>Bus Routes</h1>
-          </div>
           <div className="row">
-            
             <div className="card bus1 col-lg-6 col-md-12 col-sm-12">
               <Card routeTitle="Uttara Route" routeImg={UttaraBus} />
             </div>
@@ -32,7 +28,6 @@ function BusRoute() {
             <div className="card bus4 col-lg-6 col-md-12 col-sm-12">
               <Card routeTitle="Jatrabari Route" routeImg={PurandhkBus} />
             </div>
-            
           </div>
         </div>
       </section>
