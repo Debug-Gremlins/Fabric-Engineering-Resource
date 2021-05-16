@@ -176,6 +176,7 @@ h5 {
   background-image: url(../src/assets/banner.png);
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 }
 
 .banner-overlay {
@@ -193,12 +194,22 @@ h5 {
   font-family: Rubik;
 }
 
+.bnrwave {
+  position: absolute;
+  bottom: 500;
+  z-index: -1;
+}
+
 /* Banner Section Ends */
 /* Counter Section Starts */
 .counter-area {
+  background-color: #FFD2DA;
   padding: 90px 0px 10px;
 }
 
+.counter-area .card{
+  background-color: #FFFFB2;
+}
 .counter-area h1 {
   font-size: 30px;
   display: inline-table;
@@ -1061,7 +1072,7 @@ footer .rotating {
     background-color: #16443eda !important;
   }
   .top-over-details-part {
-    padding: 185px 0px 100px;
+    padding: 185px 0px 120px;
   }
   .top-over-details-part h1 {
     font-size: 30px;
