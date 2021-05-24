@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../assets/icon.png";
 import { Link } from "react-router-dom";
-import Footbg from "../../assets/footer_bg.png";
+// import Footbg from "../../assets/footer_bg.png";
 
 function Footer() {
   return (
@@ -84,9 +84,9 @@ function Footer() {
               <span>Top</span>
             </a>
           </div>
-          <div className="foot_bg">
+          {/* <div className="foot_bg">
             <img src={Footbg} alt="footbg" srcSet />
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>

@@ -41,8 +41,6 @@ class BCETable extends Component {
                             Lecture Video
                           </a>
                         </td>
-                        <td>{row.Option1}</td>
-                        <td>{row.Option2}</td>
                       </tr>
                     ))}
                   </tbody>

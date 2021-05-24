@@ -4,15 +4,15 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  /* height: 100vh; */
+}
+.top-bnr-overlay {
+  height: inherit;
+  background-color: rgba(18, 20, 20, 0.603);
 }
 
-.wave {
-  position: absolute;
-  bottom: -50px;
-  z-index: 2;
-}
 .top-over-details-part {
-  padding: 250px 0px 180px;
+  padding: 250px 0px;
 }
 
 .top-over-details-part h1 {
@@ -26,9 +26,7 @@
   font-size: 20px;
 }
 
-.top-bnr-overlay {
-  background-color: rgba(18, 20, 20, 0.603);
-}
+
 
 .home-shield {
   position: absolute;

@@ -24,15 +24,17 @@ function Syllabus() {
                         <td>
                           <h5>{row.levelterm}</h5>
                         </td>
-                        <div className="btn">
-                          <a
-                            href={row.driveLink}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Download
-                          </a>
-                        </div>
+                        <td>
+                          <div className="btn">
+                            <a
+                              href={row.driveLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              Download
+                            </a>
+                          </div>
+                        </td>
                       </tr>
                     ))}
                   </tbody>

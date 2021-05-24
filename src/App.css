@@ -203,12 +203,12 @@ h5 {
 /* Banner Section Ends */
 /* Counter Section Starts */
 .counter-area {
-  background-color: #FFD2DA;
+  background-color: #ffd2da;
   padding: 90px 0px 10px;
 }
 
-.counter-area .card{
-  background-color: #FFFFB2;
+.counter-area .card {
+  background-color: #ffffb299;
 }
 .counter-area h1 {
   font-size: 30px;
@@ -416,20 +416,22 @@ section table tr td:nth-child(3) {
   padding: 10px 0px;
 }
 
-.sy-link a {
-  background: #794bc4;
-  text-decoration: none;
-  color: wheat;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 10px;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  font-size: 16px;
-}
 
 .sylb .btn {
   margin: 5px 0px;
+  border: 2px solid #093d68;
+}
+.sylb .btn a {
+  color: #093d68;
+}
+
+.sylb .btn:hover {
+  background-color: #093d68;
+  border: 2px solid transparent;
+}
+
+.sylb .btn:hover a {
+  color: #a89f9f;
 }
 
 .sylb section table tr {
@@ -516,8 +518,20 @@ section table tr td:nth-child(3) {
   color: #fdefef;
 }
 /* Routine Section Ends */
-/***************************** Accessories.html ****************************** */
-/***************************** Developer.html ****************************** */
+/***************************** Accessories  ****************************** */
+
+/***************************** Exam Info  ****************************** */
+.info{
+  background-color: #e768b259;
+  padding: 300px 0px;
+}
+.info h1{
+  text-align: center;
+  color: #0b0b0b;
+}
+/***************************** Exam Info ****************************** */
+
+/***************************** Developer ****************************** */
 .developedBy {
   padding: 10px 10px 20px;
 }
@@ -614,8 +628,6 @@ section table tr td:nth-child(3) {
 footer {
   text-align: center;
   padding: 70px 0px 30px;
-  margin-top: 40px;
-  border-radius: 30px 30px 0px 0px;
   background: #15202b;
   -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
   box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
@@ -822,6 +834,7 @@ footer .rotating {
     align-items: center;
     display: -ms-flexbox;
     -ms-flex-pack: center;
+    justify-content: space-between;
   }
   .bus1,
   .bus2,
@@ -853,7 +866,7 @@ footer .rotating {
     margin: 150px 0px 30px;
   }
   .details_content {
-    padding: 20px;
+    padding: 30px;
   }
   .banner-overlay {
     padding: 120px 0px;
@@ -1080,5 +1093,7 @@ footer .rotating {
 
   .top-over-details-part p {
     font-size: 16px;
+    text-align: justify;
+    padding: 30px;
   }
 }

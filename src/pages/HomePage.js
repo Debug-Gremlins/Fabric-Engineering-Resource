@@ -1,13 +1,13 @@
 import React from "react";
-// import Vector from "../components/sections/Vector";
 import Banner from "../components/sections/Banner";
 import Details from "../components/sections/Details";
 import Counter from "../components/sections/CounterUp";
-import HomeNav from "../components/includes/HomeNav";
+import UpperBanner from '../components/sections/UpperBanner'
+
 function HomePage() {
   return (
     <div>
-      <HomeNav />
+      <UpperBanner />
       <Counter />
       <Banner />
       <Details />
