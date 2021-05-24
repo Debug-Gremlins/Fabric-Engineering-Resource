@@ -365,13 +365,20 @@ section table tr td:nth-child(3) {
   width: 100%;
   text-decoration: none;
   color: inherit;
-  background: #794bc4;
+  background: #0c253a;
   color: #e9dddd;
   padding: 10px 5px;
-  border-radius: 5px;
+  border: 2px solid transparent;
+  border-radius: 30px;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   display: inline-block;
+}
+
+.link a:hover {
+  background-color: transparent;
+  border: 2px solid #0c253a;
+  color: #0c253a;
 }
 
 .pdf h2 {
@@ -402,11 +409,6 @@ section table tr td:nth-child(3) {
   padding-bottom: 60px;
 }
 
-.sy-link a:hover,
-.link a:hover {
-  opacity: 0.5;
-}
-
 .level h2 {
   margin-bottom: 30px;
   color: #0c253a;
@@ -415,7 +417,6 @@ section table tr td:nth-child(3) {
 .level h5 {
   padding: 10px 0px;
 }
-
 
 .sylb .btn {
   margin: 5px 0px;
@@ -496,38 +497,41 @@ section table tr td:nth-child(3) {
   margin-top: 80px;
 }
 
-.rot_link a {
-  background: #794bc4;
-  text-decoration: none;
-  color: wheat;
-  color: #15202b;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 10px;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  font-size: 20px;
-}
-
 .routine img {
   max-width: 100%;
 }
 
-.rot_link:hover {
-  opacity: 0.5;
-  color: #fdefef;
+.routine .btn {
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: 2px solid #0c253a;
+  background-color: transparent;
+  border-radius: 25px;
+  transition: all linear 0.3s;
+}
+
+.routine .btn a {
+  color: #0c253a;
+}
+
+.routine .btn:hover {
+  background-color: #0c253a;
+}
+
+.routine .btn:hover a {
+  color: #a89f9f;
 }
 /* Routine Section Ends */
 /***************************** Accessories  ****************************** */
 
 /***************************** Exam Info  ****************************** */
-.info{
-  background-color: #e768b259;
-  padding: 300px 0px;
+.info {
+  background-color: #f592cb59;
+  padding: 300px 0px 100px;
 }
-.info h1{
+.info h1 {
   text-align: center;
-  color: #0b0b0b;
+  color: #0c253a;
 }
 /***************************** Exam Info ****************************** */
 

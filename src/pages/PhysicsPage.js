@@ -1,5 +1,5 @@
 import React from "react";
-import Physics from "../components/sections/Physics";
+import Physics from "../components/customs/PhysicsTable";
 
 function PhysicsPage() {
   return (
