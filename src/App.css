@@ -127,19 +127,12 @@ section table {
   text-decoration: none;
   padding: 15px 20px;
   border-radius: 30px;
-  background: #15202b;
-  background: #cbb3b3;
+  background: #d6abab73;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   font-family: Ubuntu;
   font-weight: 500;
-}
-
-.overlaybttn a:hover {
-  -webkit-box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
-  box-shadow: 2px 2px 6px #0b0b0b, -2px -2px 6px #2d2d2d;
-  -webkit-box-shadow: 2px 2px 6px #ad9898, -2px -2px 6px #e9cece;
-  box-shadow: 2px 2px 6px #ad9898, -2px -2px 6px #e9cece;
+  box-shadow: 2px 2px 3px #a7919146;
 }
 
 .overlaybttn a i {
@@ -213,16 +206,16 @@ h5 {
 .counter-area h1 {
   font-size: 30px;
   display: inline-table;
-  color: #17bf63;
+  color: #0c253a;
 }
 
 .counter-area h2 {
   color: wheat;
-  color: #15202b;
+  color: #093d68;
 }
 
 .counter-area p {
-  color: #794bc4;
+  color: #2d2d2d;
   font-size: 20px;
 }
 
@@ -395,6 +388,23 @@ section table tr td:nth-child(3) {
   margin-top: 230px;
 }
 
+.bce .card {
+  background-color: #ffffb299;
+}
+
+.chem .card {
+  background-color: #ffffb299;
+}
+
+.math .card {
+  background-color: #ffffb299;
+}
+.ntf .card {
+  background-color: #ffffb299;
+}
+.phy .card {
+  background-color: #ffffb299;
+}
 /* Resource Section Ends */
 /***************************** Resources.html ******************************** */
 /***************************** Syllabus.html ******************************** */
@@ -459,6 +469,10 @@ section table tr td:nth-child(3) {
   /* border-color: #fdfdfd61; */
 }
 
+.sylb .card {
+  background-color: #ffffb299;
+}
+
 /* Syllabus Section Ends */
 /***************************** Syllabus.html ******************************** */
 /***************************** Accessories.html ****************************** */
@@ -487,6 +501,10 @@ section table tr td:nth-child(3) {
 
 .bus-route .card {
   padding: 60px;
+}
+
+.bus-route.card {
+  background-color: #ffffb299;
 }
 
 /* Bus Section Ends */
@@ -519,6 +537,10 @@ section table tr td:nth-child(3) {
 .routine .btn:hover a {
   color: #a89f9f;
 }
+
+.routine .card {
+  background-color: #ffffb299;
+}
 /* Routine Section Ends */
 /***************************** Accessories  ****************************** */
 
@@ -536,6 +558,10 @@ section table tr td:nth-child(3) {
 /***************************** Developer ****************************** */
 .developedBy {
   padding: 10px 10px 20px;
+}
+
+.developedBy .card {
+  background-color: #ffffb299;
 }
 
 .developedBy h3 {
