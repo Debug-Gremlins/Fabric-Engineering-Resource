@@ -11,8 +11,6 @@ function BusRoute() {
       <section
         id="bsr"
         className="bus-route"
-        data-aos="fade-up"
-        data-aos-duration={3000}
       >
         <div className="container text-center">
           <div className="row">

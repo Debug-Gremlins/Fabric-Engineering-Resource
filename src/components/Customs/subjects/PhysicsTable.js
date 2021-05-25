@@ -1,31 +1,33 @@
 import React from "react";
-import data from "../../json/bce-data.json";
 import { Component } from "react";
+import data from "../../../json/physics-data.json";
 
-class BCETable extends Component {
+class PhysicsTable extends Component {
   render() {
     return (
       <div>
-        <section className="bce" data-aos="fade-up" data-aos-duration={3000}>
+        <section className="phy" data-aos="fade-up" data-aos-duration={3000}>
           <div className="container">
             <div className="row justify-content-center">
-              <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
+              <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div className="section-title">
-                  <h1>Business &amp; Communicative English (BCE)</h1>
+                  <h1>Physics</h1>
                 </div>
                 <div className="overlaybttn">
-                  <a id="topbce" href="#bottombce">
+                  <a id="topphy" href="#bottomphy">
                     <i className="fa fa-arrow-circle-down" aria-hidden="true" />
                     <span>Bottom</span>
                   </a>
                 </div>
                 <table>
-                  <tr>
-                    <th>Date</th>
-                    <th>Lecturer</th>
-                    <th>Discussed Topics</th>
-                    <th colSpan={3}>Resources</th>
-                  </tr>
+                  <tbody>
+                    <tr>
+                      <th>Date</th>
+                      <th>Lecturer</th>
+                      <th>Discussed Topics</th>
+                      <th colSpan={3}>Resources</th>
+                    </tr>
+                  </tbody>
                   <tbody>
                     {data.map((row) => (
                       <tr key={row.key}>
@@ -46,7 +48,7 @@ class BCETable extends Component {
                   </tbody>
                 </table>
                 <div className="overlaybttn">
-                  <a id="bottomchem" href="#topbce">
+                  <a id="bottomphy" href="#topphy">
                     <i className="fa fa-arrow-circle-up" aria-hidden="true" />
                     <span>Top</span>
                   </a>
@@ -60,4 +62,4 @@ class BCETable extends Component {
   }
 }
 
-export default BCETable;
+export default PhysicsTable;

@@ -1,6 +1,6 @@
 import React from "react";
-import BusRoute from "../components/sections/BusRoute";
-import Routine from "../components/sections/Routine";
+import BusRoute from "../components/widgets/BusRoute";
+import Routine from "../components/widgets/Routine";
 
 function AccessoriesPage() {
   return (

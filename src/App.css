@@ -126,7 +126,7 @@ section table {
   display: inline-block;
   text-decoration: none;
   padding: 15px 20px;
-  border-radius: 20px;
+  border-radius: 30px;
   background: #15202b;
   background: #cbb3b3;
   -webkit-transition-duration: 0.3s;
@@ -153,7 +153,7 @@ section table {
   display: inline-block;
 }
 h2 {
-  color: #093d68;
+  color: #0c253a;
   font-size: 26px;
   font-weight: 400;
 }
@@ -163,7 +163,7 @@ h4 {
 }
 
 h5 {
-  color: #15273a;
+  color: #093d68;
 }
 /* Overlay Button Ends */
 /***************************** Index.html ******************************** */
@@ -203,7 +203,7 @@ h5 {
 /* Banner Section Ends */
 /* Counter Section Starts */
 .counter-area {
-  background-color: #ffd2da;
+  background-color: #ffd2da94;
   padding: 90px 0px 10px;
 }
 
@@ -313,19 +313,17 @@ h5 {
 /* Card Section Starts */
 .card {
   text-align: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 50px;
   border-radius: 20px;
-  background: #c0b7b7dc;
-  /* background: linear-gradient(145deg, #c8bdbd, #a89f9f);*/
-  box-shadow: 11px 7px 18px 1px #b1a6a6, -2px -2px 6px #dfd5d5;
+  background: linear-gradient(300deg, #ffbed781, #ebabff85);
+  box-shadow: 14px 10px 13px 0px #d8c5c5;
   margin-bottom: 70px;
-  /* border: 1px solid darkgray; */
+  border: none;
 }
 
 /* Card Section Ends */
+
 /* Section Starts */
 .section-title {
   width: 100%;
@@ -346,6 +344,7 @@ section table {
 
 section table tr th {
   color: #0f253b;
+  font-size: 22px;
 }
 
 section table tr td {
@@ -633,12 +632,12 @@ footer {
   text-align: center;
   padding: 70px 0px 30px;
   background: #15202b;
-  -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
-  box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
-  background: #c0b7b7;
+  /* -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
+  box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39; */
+  background: #c4bbbb;
   background: linear-gradient(145deg, #c8bdbd, #a89f9f);
-  box-shadow: 20px 20px 60px #b1a6a6, -20px -20px 60px #dfd5d5;
-  border: 1px solid darkgray;
+  /* box-shadow: 20px 20px 60px #b1a6a6, -20px -20px 60px #dfd5d5; */
+  /* border: 1px solid darkgray; */
   position: relative;
 }
 footer h3 {

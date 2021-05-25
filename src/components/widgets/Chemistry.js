@@ -1,17 +1,17 @@
 import React from "react";
 
-function Math() {
+function Chemistry() {
   return (
     <div>
-      <section className="math" data-aos="fade-up" data-aos-duration={3000}>
+      <section className="chem">
         <div className="container">
           <div className="row justify-content-center">
             <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
               <div className="section-title">
-                <h1>Mathematics</h1>
+                <h1>Chemistry</h1>
               </div>
               <div className="overlaybttn">
-                <a id="topmath" href="#bottommath">
+                <a id="topchem" href="#bottomchem">
                   <i className="fa fa-arrow-circle-down" aria-hidden="true" />
                   <span>Bottom</span>
                 </a>
@@ -28,12 +28,12 @@ function Math() {
                 </tbody>
                 <tbody>
                   <tr>
-                    <td>07 Oct, 2020</td>
-                    <td>Anup Sir</td>
-                    <td>Mean Value Theorem</td>
+                    <td>06 Oct, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Dilute Solution (Part 1)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1j1RsiV8ulW1DbfEsqopN27x7BC7mzfCP/view"
+                        href="https://drive.google.com/file/d/1q2C3Wrqt-ykPdWJrmYK95apoaWCNQKHG/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -42,12 +42,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>07 Oct, 2020</td>
-                    <td>Anup Sir</td>
-                    <td>Rolle's Theorem</td>
+                    <td>06 Oct, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Dilute Solution (Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1GK-NzbKdagLGFm1BQIhHa3-kSAsUHhkR/view"
+                        href="https://drive.google.com/file/d/1qAsxK2bjY9GaoodKGzKBDeJ7CH-whr7E/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -56,12 +56,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>14 Oct, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Linerar Algebra (Part 1)</td>
+                    <td>13 Oct, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Raoults Law</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1FjkCgErNl3NYTt7wNPztnU-LR5AcWxxv/view"
+                        href="https://drive.google.com/file/d/1_fohdX4xDnc4YJAXIybEh0k-dJcKgZ2D/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -70,12 +70,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>11 Nov, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Gaussian Elimination</td>
+                    <td>10 Nov, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Dilute Solution Properties</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1n76i1i248WlA7_XkidHa2Evu38O-URR-/view"
+                        href="https://drive.google.com/file/d/1Q5b_fWfAiORCA4WAHIT1cC0oSdDg2ncm/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -84,12 +84,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>18 Nov, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Matrix (Part 1)</td>
+                    <td>19 Nov, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Chemical Kinetics</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1rOQCdbMb5RE1N8OtyAZmAk6Ii_Tietbl/view"
+                        href="https://drive.google.com/file/d/1Q0N6iqA6Ynzay4QFW2ytaKyvXYKPaWe8/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -98,12 +98,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>25 Nov, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Canonical form of Matrix</td>
+                    <td>24 Nov, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Order of Reaction</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1I3iG-PbkMqcWdyBA3b0yjs2EVhN2t5kQ/view"
+                        href="https://drive.google.com/file/d/16M6dQYhHHXzQsB7AKh17WIOudExL93jp/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -112,12 +112,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>02 Dec, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Eigenvalues &amp; Eigenvectors</td>
+                    <td>01 Dec, 2020</td>
+                    <td>Samiul Sir</td>
+                    <td>Arrhenius Equation</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1NQKtTSRW0nUW4rJql0dqgMlJINXaUwu6/view"
+                        href="https://drive.google.com/file/d/11VfCNhvUpjdZXdvVRq_HqsbOvED58l-V/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -126,12 +126,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>09 Dec, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Rank of Matrix</td>
+                    <td>12 Dec, 2020</td>
+                    <td>Sadia Mam</td>
+                    <td>Periodicity of Element (Part 1)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1nNP0pJtxRs006TwyXxqgjej1cipDuXjc/view"
+                        href="https://drive.google.com/file/d/1W2N5bp6PTxMUI6jT_FUX6aiDtccH8UDI/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -140,12 +140,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>30 Dec, 2020</td>
-                    <td>Anwar Sir</td>
-                    <td>Coordinate Geometry (Part 1)</td>
+                    <td>29 Dec, 2020</td>
+                    <td>Sadia Mam</td>
+                    <td>Periodicity of Element (Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1Z6E_sGM6-x-BbWPHqckk-DYkUp610u2Y/view"
+                        href="https://drive.google.com/file/d/1Fm2oNIniZw-v8KwhvBW3zcd-6RBYSr4I/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -154,12 +154,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>06 Jan, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Coordinate Geometry (Part 2)</td>
+                    <td>05 Jan, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Acid Base (Part 1)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1RJ5mV_hCfVVAr5F0QmG94DpYcbq5_jn2/view"
+                        href="https://drive.google.com/file/d/1QY0KtOfoS_Dew-OlqnmirO4F3s1KbRsC/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -168,12 +168,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>13 Jan, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Pair of Straight Lines</td>
+                    <td>12 Jan, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Acid Base (Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/18qrma8StI_BR5sr41vt5AVv6UOnFmWxj/view"
+                        href="https://drive.google.com/file/d/16jU8JDs6nYZY4-gPfEo2aecFTFtzFTs4/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -182,12 +182,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>13 Jan, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Δ Analysis</td>
+                    <td>19 Jan, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Acid Base (Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/16i7pru5FWvJwlEmnAMNG6siqEfngPTyy/view"
+                        href="https://drive.google.com/file/d/18MoumrU1Izh073ur73uVZXZUaJ9AHSlo/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -196,12 +196,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>20 Jan, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>2D Conics</td>
+                    <td>28 Jan, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Analytical Analysis (Part 1)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/15wwZTX5O4_WyK9e232Odz2FGfSu8ez0f/view"
+                        href="https://drive.google.com/file/d/1SljKBJBRUB5_S5U93Pgqco2VOHVq1wQK/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -210,12 +210,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>27 Jan, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Direction Cosine</td>
+                    <td>20 Feb, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Analytical Analysis(Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1ljhQ9U66atC7Xcy6oWTNnKCX-QjSUj1j/view"
+                        href="https://drive.google.com/file/d/1VHLBt1npZldHuIhrCETQ55PQmnRnAS6v/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -224,12 +224,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>03 Feb, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Plane</td>
+                    <td>2 Feb, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Photochemistry (Part 1)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1mLM20I2shA7wXg4Ws-_Lfa4sA6BVbbmS/view"
+                        href="https://drive.google.com/file/d/1qCgjmOEfJlyyNRLjU3XuXTRA6vjgrZp1/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -238,12 +238,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>10 Feb, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Straight Line</td>
+                    <td>4 Feb, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Photochemistry (Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1MtEht0AY9hr6K_ddNFZjTorODDtTMjNE/view"
+                        href="https://drive.google.com/file/d/1D70reGPGc91nzaMQIiSItfRQbiuZYHei/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -252,12 +252,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>17 Feb, 2021</td>
-                    <td>Anwar Sir</td>
-                    <td>Straight Line Review</td>
+                    <td>11 Feb, 2021</td>
+                    <td>Sadia Mam</td>
+                    <td>Photochemistry (Part 3)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1wSDPjXMC-_iGffXGVuH3odjXIvSvE0Ph/view"
+                        href="https://drive.google.com/file/d/1SZaWnnzc5sMucua_0UJDMrM_HbJslAQc/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -266,12 +266,12 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>18 Apr, 2021</td>
-                    <td>Anup Sir</td>
-                    <td>Integration (Part 1)</td>
+                    <td>23 Feb, 2021</td>
+                    <td>Farzana Mam</td>
+                    <td>Complex Compound (Part 1)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1e2YMEZTQtLVwH4352Ksfgr2PEuCUp5JC/view"
+                        href="https://drive.google.com/file/d/1T_T_k5_WWFCwsRz_Hfm8IIKcQaQAs1Jn/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -280,12 +280,40 @@ function Math() {
                     </td>
                   </tr>
                   <tr>
-                    <td>19 Apr, 2021</td>
-                    <td>Anup Sir</td>
-                    <td>Integration (Part 2)</td>
+                    <td>02 Mar, 2021</td>
+                    <td>Farzana Mam</td>
+                    <td>Complex Compound (Part 2)</td>
                     <td className="link">
                       <a
-                        href="https://drive.google.com/file/d/1A28QgB-esUhBQf0d3_wxPDf1jdtdK3cb/view"
+                        href="https://drive.google.com/file/d/1S5pI9tMznR3RePYjYEd0pbyfTCZkQ9iZ/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Lecture Video
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>09 Mar, 2021</td>
+                    <td>Farzana Mam</td>
+                    <td>Effective Atomic Number</td>
+                    <td className="link">
+                      <a
+                        href="https://drive.google.com/file/d/1SsDtdjLkWbeN4XVGW_qPdJj8cJF-LqFs/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Lecture Video
+                      </a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>18 Mar, 2021</td>
+                    <td>Farzana Mam</td>
+                    <td>Warners Theory</td>
+                    <td className="link">
+                      <a
+                        href="https://drive.google.com/file/d/1BVAjQh5N84SQ8VxShpVMhS_OMVe1M-_s/view"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -296,7 +324,7 @@ function Math() {
                 </tbody>
               </table>
               <div className="overlaybttn">
-                <a id="bottommath" href="#topmath">
+                <a id="bottomchem" href="#topchem">
                   <i className="fa fa-arrow-circle-up" aria-hidden="true" />
                   <span>Top</span>
                 </a>
@@ -309,4 +337,4 @@ function Math() {
   );
 }
 
-export default Math;
+export default Chemistry;

@@ -6,8 +6,6 @@ function CounterUp() {
     <div>
       <section
         className="counter-area"
-        data-aos="fade-up"
-        data-aos-duration={3000}
       >
         <div className="container">
           <div className="row justify-content-center text-center">

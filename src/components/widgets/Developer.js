@@ -9,8 +9,6 @@ function Developer() {
           <div className="row justify-content-between align-items-end">
             <div
               className="col-lg-6 col-md-12 col-sm-12 text-left"
-              data-aos="fade-up"
-              data-aos-duration={3000}
             >
               <div className="dev-icon">
                 <img src={Devimg} alt="" srcSet />

@@ -1,5 +1,5 @@
 import React from 'react'
-import Info from '../components/sections/ExamInfo'
+import Info from '../components/widgets/ExamInfo'
 
 function ExamInfoPage() {
     return (
