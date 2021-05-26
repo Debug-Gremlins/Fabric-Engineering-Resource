@@ -188,35 +188,29 @@ h5 {
   font-family: Rubik;
 }
 
-.bnrwave {
-  position: absolute;
-  bottom: 500;
-  z-index: -1;
-}
-
 /* Banner Section Ends */
 /* Counter Section Starts */
 .counter-area {
   padding: 90px 0px 10px;
+  align-items: center;
 }
 
 .counter-area .card {
+  padding: 100px 40px;
   background-color: #ffffb299;
 }
+
 .counter-area h1 {
   font-size: 30px;
   display: inline-table;
   color: #0c253a;
-}
-
-.counter-area h2 {
-  color: wheat;
-  color: #093d68;
+  margin: 20px 0px;
 }
 
 .counter-area p {
+  text-align: center;
   color: #2d2d2d;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* Counter Section Ends */
@@ -657,13 +651,7 @@ section table tr td:nth-child(3) {
 footer {
   text-align: center;
   padding: 70px 0px 30px;
-  background: #15202b;
-  /* -webkit-box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39;
-  box-shadow: 20px 20px 52px #0e161d, -20px -20px 52px #1c2a39; */
-  background: #c4bbbb;
-  background: linear-gradient(145deg, #c8bdbd, #a89f9f);
-  /* box-shadow: 20px 20px 60px #b1a6a6, -20px -20px 60px #dfd5d5; */
-  /* border: 1px solid darkgray; */
+  background: #efc7c7;
   position: relative;
 }
 footer h3 {
@@ -917,6 +905,13 @@ footer .rotating {
   .top-over-details-part {
     padding: 240px 0px 100px;
   }
+  .counter-area .card {
+    padding: 90px 20px;
+    background-color: #ffffb299;
+  }
+  .counter-area h1 {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -1124,5 +1119,9 @@ footer .rotating {
     font-size: 16px;
     text-align: justify;
     padding: 30px;
+  }
+  .counter-area .card {
+    padding: 120px 40px;
+    background-color: #ffffb299;
   }
 }
