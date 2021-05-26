@@ -10,8 +10,9 @@ import {
   FcSurvey,
   FcElectronics,
 } from "react-icons/fc";
-import { RiMenu2Line } from "react-icons/ri";
+// import { RiMenu2Line } from "react-icons/ri";
 import { IconContext } from "react-icons";
+import {GiArrowScope} from 'react-icons/gi'
 // import { MdDeveloperBoard } from "react-icons/md";
 
 function NavigationBar() {
@@ -29,8 +30,8 @@ function NavigationBar() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <IconContext.Provider value={{ size: "30", color: "#cccff5" }}>
-                <RiMenu2Line />
+              <IconContext.Provider value={{ size: "30", color: "#ccffff" }}>
+                <GiArrowScope />
               </IconContext.Provider>
             </button>
             <div

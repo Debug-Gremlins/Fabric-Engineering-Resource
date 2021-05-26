@@ -247,7 +247,7 @@ h5 {
 .pre-con-btn :hover {
   background-color: #e0245e;
   color: #e9dddd;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .details_content hr {
@@ -541,13 +541,17 @@ section table tr td:nth-child(3) {
 
 /***************************** Exam Info  ****************************** */
 .info {
-  background-color: #f592cb59;
-  padding: 300px 0px 100px;
+  padding: 200px 0px 100px;
+}
+.info img {
+  max-width: 80%;
 }
 .info h1 {
+  font-size: 24px;
   text-align: center;
   color: #0c253a;
 }
+
 /***************************** Exam Info ****************************** */
 
 /***************************** Developer ****************************** */
@@ -941,6 +945,9 @@ footer .rotating {
   }
   .dev-card {
     margin-top: 20px;
+  }
+  .info h1 {
+    padding-top: 40px;
   }
 }
 
