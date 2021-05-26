@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class DetailsComp extends Component {
+class DetailsCompI extends Component {
   render() {
     return (
       <div>
@@ -11,7 +11,7 @@ class DetailsComp extends Component {
             <p>{this.props.detailsParagraph}</p>
             <div className="pre-con-btn">
               <a
-                href="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
+                href={this.props.detailsLink}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -26,4 +26,4 @@ class DetailsComp extends Component {
   }
 }
 
-export default DetailsComp;
+export default DetailsCompI;

@@ -26,6 +26,7 @@ body {
   color: #e4e4e4;
   overflow-x: hidden;
   font-weight: 400;
+  background-color: #ffd2da94;
 }
 
 body::-webkit-scrollbar {
@@ -196,7 +197,6 @@ h5 {
 /* Banner Section Ends */
 /* Counter Section Starts */
 .counter-area {
-  background-color: #ffd2da94;
   padding: 90px 0px 10px;
 }
 
@@ -500,6 +500,7 @@ section table tr td:nth-child(3) {
 }
 
 .bus-route .card {
+  background-color: #ffd2da94;
   padding: 60px;
 }
 

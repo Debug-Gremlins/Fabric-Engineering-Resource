@@ -7,7 +7,7 @@ function Details() {
     <div>
       <section className="details">
         <div className="container-fluid">
-          <DetailsDataII
+          <DetailsDataI
             clsName="bg_sec_1 col"
             detailsTitle="Learning that goes beyond digital"
             detailsParagraph="
@@ -20,19 +20,21 @@ function Details() {
                 best quality and durable textiles which satisfy human desires
                 and needs."
             detailsBtn="Learn More"
+            detailsLink="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
           />
 
-          <DetailsDataI
+          <DetailsDataII
             detailsTitle="Programs tailored just for your team"
             detailsParagraph="Textile engineering deals with all fiber, textile and apparel
                   processes, products and machinery. If you wish to take your
                   passions further in the textile industry, find and compare
                   degrees on educations.com today."
             detailsBtn="Learn More"
+            detailsLink="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
             clsName="bg_sec_2 col"
           />
 
-          <DetailsDataII
+          <DetailsDataI
             clsName="bg_sec_3 col"
             detailsTitle="A role in the creative canon"
             detailsParagraph="
@@ -41,9 +43,10 @@ function Details() {
                   and lab verification, advanced laminating, and proprietary
                   fabric bonding."
             detailsBtn="Learn More"
+            detailsLink="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
           />
 
-          <DetailsDataI
+          <DetailsDataII
             detailsTitle="Take control of your program"
             detailsParagraph="The U.S. textile industry is a nearly $70 billion sector when
                   measured by the value of industry shipments. It remains one of
@@ -52,10 +55,11 @@ function Details() {
                   in 2018. A textile is a flexible material made up of a network
                   of natural or artificial fibers such as yarn or thread."
             detailsBtn="See How"
+            detailsLink="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
             clsName="bg_sec_4 col"
           />
 
-          <DetailsDataII
+          <DetailsDataI
             clsName="bg_sec_5 col"
             detailsTitle="Engagement that matters"
             detailsParagraph="
@@ -67,6 +71,7 @@ function Details() {
                 developing the process to make fabrics.In fact, you cannot think
                 of a day without textiles."
             detailsBtn="Read More"
+            detailsLink="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
           />
         </div>
       </section>
