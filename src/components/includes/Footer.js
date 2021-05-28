@@ -95,7 +95,7 @@ export default Footer;
 
 const FooterArea = styled.div`
   text-align: center;
-  padding: 70px 0px 30px;
+  padding: 70px 0px 0px;
   background: #efc7c7;
   position: relative;
   h3 {

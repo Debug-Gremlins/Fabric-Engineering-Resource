@@ -1,5 +1,5 @@
 import React from 'react'
-import Syllabus from '../components/customs/Syllabus';
+import Syllabus from '../components/customs/SyllabusCard';
 
 function SyllabusPage() {
     return (

@@ -66,7 +66,7 @@ const BusRouteSec = styled.div`
       padding: 10px;
     }
     .card {
-      padding: 30px 10px 50px;
+      padding: 30px 40px;
     }
   }
   @media (max-width: 767px) {
@@ -82,7 +82,7 @@ const BusRouteSec = styled.div`
       max-width: 90%;
     }
     .card {
-      padding: 30px 10px 50px;
+      padding: 30px 10px;
     }
   }
 `;

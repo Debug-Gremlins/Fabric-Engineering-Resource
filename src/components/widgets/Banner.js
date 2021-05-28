@@ -58,6 +58,7 @@ const BannerArea = styled.div`
     margin-top: 20px;
     color: #e9dddd;
     font-family: Rubik;
+    text-align: justify;
   }
   @media (max-width: 991px) {
     .banner-overlay {

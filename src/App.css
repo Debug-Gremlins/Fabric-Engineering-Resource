@@ -39,8 +39,8 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(136, 136, 167); /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 1px solid rgb(145, 145, 151); /* creates padding around scroll thumb */
+  border-radius: 30px; /* roundness of the scroll thumb */
+  border: 2px solid rgb(71, 71, 66); /* creates padding around scroll thumb */
 }
 
 /* Universal CSS */
@@ -97,7 +97,7 @@ h5 {
   color: #15202b;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 767px) {
   .btn {
     margin-top: 0px;
     padding: 7px 15px;

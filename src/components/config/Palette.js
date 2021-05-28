@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CourseTitle = styled.div`
-  margin-top: 150px;
+  margin-top: 170px;
   .card {
     background-color: #ffffb299;
   }

@@ -10,10 +10,8 @@ import {
   FcSurvey,
   FcElectronics,
 } from "react-icons/fc";
-// import { RiMenu2Line } from "react-icons/ri";
 import { IconContext } from "react-icons";
 import {GiArrowScope} from 'react-icons/gi'
-// import { MdDeveloperBoard } from "react-icons/md";
 
 function NavigationBar() {
   return (

@@ -85,7 +85,8 @@ const TopBannerArea = styled.div`
 
   .top-over-details-part p {
     padding-top: 15px;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
   }
   .home-shield {
     position: absolute;

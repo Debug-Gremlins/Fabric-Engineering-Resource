@@ -156,7 +156,6 @@ function Developer() {
 export default Developer;
 
 const DevelopedBy = styled.div`
-  padding: 70px 10px 20px;
   .card {
     padding: 30px 20px;
     background-color: #ffffb299;

@@ -85,12 +85,11 @@ const SyllabusArea = styled.div`
     width: 50%;
     padding: 10px 0px;
     height: auto;
-    border-bottom: 1px solid #ffffb267;
   }
 
-  .sylb .card {
+  .card {
     background-color: #ffffb299;
-    align-items: inherit;
+    align-items: stretch;
     padding: 30px;
   }
 
@@ -115,6 +114,5 @@ const SyllabusArea = styled.div`
     h5 {
       font-size: 18px;
     }
-    padding: 30px 0px;
   }
 `;
