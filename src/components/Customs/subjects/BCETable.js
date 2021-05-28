@@ -1,4 +1,5 @@
 import React from "react";
+import { CourseTitle, OverlayButton } from "../../config/Palette";
 import data from "../../../json/bce-data.json";
 import { Component } from "react";
 
@@ -6,19 +7,19 @@ class BCETable extends Component {
   render() {
     return (
       <div>
-        <section className="bce" data-aos="fade-up" data-aos-duration={3000}>
+        <CourseTitle>
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xsm-12">
                 <div className="section-title">
                   <h1>Business &amp; Communicative English (BCE)</h1>
                 </div>
-                <div className="overlaybttn">
+                <OverlayButton>
                   <a id="topbce" href="#bottombce">
                     <i className="fa fa-arrow-circle-down" aria-hidden="true" />
                     <span>Bottom</span>
                   </a>
-                </div>
+                </OverlayButton>
                 <table>
                   <tr>
                     <th>Date</th>
@@ -45,16 +46,16 @@ class BCETable extends Component {
                     ))}
                   </tbody>
                 </table>
-                <div className="overlaybttn">
+                <OverlayButton>
                   <a id="bottomchem" href="#topbce">
                     <i className="fa fa-arrow-circle-up" aria-hidden="true" />
                     <span>Top</span>
                   </a>
-                </div>
+                </OverlayButton>
               </div>
             </div>
           </div>
-        </section>
+        </CourseTitle>
       </div>
     );
   }

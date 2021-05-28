@@ -1,11 +1,12 @@
 import React from "react";
 import DetailsDataI from "../customs/DetailsCompI";
 import DetailsDataII from "../customs/DetailsCompII";
+import styled from "styled-components";
 
 function Details() {
   return (
     <div>
-      <section className="details">
+      <DetailsArea>
         <div className="container-fluid">
           <DetailsDataI
             clsName="bg_sec_1 col"
@@ -74,9 +75,101 @@ function Details() {
             detailsLink="https://www.thomasnet.com/articles/top-suppliers/textile-manufacturing-companies/"
           />
         </div>
-      </section>
+      </DetailsArea>
     </div>
   );
 }
 
 export default Details;
+
+const DetailsArea = styled.div`
+  padding: 100px 0px;
+  color: #121c25;
+  h1 {
+    font-family: Ubuntu;
+    color: #e0245e;
+  }
+  .details_content p {
+    font-family: 16px;
+    font-family: Poppins;
+    color: #0e161d;
+    padding-bottom: 20px;
+    font-weight: 400;
+  }
+  .pre-con-btn a {
+    font-family: Ubuntu;
+    text-decoration: none;
+    color: #e0245e;
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 2px solid #e0245e;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+  }
+
+  .pre-con-btn :hover {
+    background-color: #e0245e;
+    color: #e9dddd;
+    border: 2px solid transparent;
+  }
+
+  .details_content hr {
+    width: 20%;
+    background-color: #e0245e;
+    padding: 2px;
+    border-radius: 30px;
+    margin-right: inherit;
+    margin-left: inherit;
+  }
+
+  .bg_sec_1,
+  .bg_sec_2,
+  .bg_sec_3,
+  .bg_sec_4,
+  .bg_sec_5 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .details_content {
+    padding: 90px 100px;
+  }
+
+  .bg_sec_1 {
+    background-image: url(https://cdn.pixabay.com/photo/2019/09/28/12/47/workshop-4510700_1280.jpg);
+  }
+
+  .bg_sec_2 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/14/20/12/texture-3319946_1280.jpg);
+  }
+
+  .bg_sec_3 {
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/05/11/21/sewing-machine-315382_1280.jpg);
+  }
+
+  .bg_sec_4 {
+    background-image: url(https://cdn.pixabay.com/photo/2018/08/24/23/33/oil-3629119_1280.jpg);
+  }
+
+  .bg_sec_5 {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/05/14/24/yarn-2583975_1280.jpg);
+  }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 29px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .details_content {
+      padding: 30px;
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 10px 0px;
+    .details_content {
+      padding: 20px;
+    }
+  }
+`;

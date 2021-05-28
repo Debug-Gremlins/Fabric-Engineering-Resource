@@ -5,7 +5,7 @@ class DetailsCompI extends Component {
     return (
       <div>
         <div className="row">
-          <div className="details_content col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <div className="details_content col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <h1>{this.props.detailsTitle}</h1>
             <hr />
             <p>{this.props.detailsParagraph}</p>

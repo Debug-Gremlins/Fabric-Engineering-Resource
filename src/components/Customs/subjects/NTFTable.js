@@ -1,4 +1,5 @@
 import React from "react";
+import { CourseTitle, OverlayButton } from "../../config/Palette";
 import data from "../../../json/ntf-data.json";
 import { Component } from "react";
 
@@ -6,19 +7,19 @@ class NTFTable extends Component {
   render() {
     return (
       <div>
-        <section className="ntf">
+        <CourseTitle>
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div className="section-title">
                   <h1>Natural Textile Fiber (NTF)</h1>
                 </div>
-                <div className="overlaybttn">
+                <OverlayButton>
                   <a id="topntf" href="#bottomntf">
                     <i className="fa fa-arrow-circle-down" aria-hidden="true" />
                     <span>Bottom</span>
                   </a>
-                </div>
+                </OverlayButton>
                
                 <table>
                   <tbody>
@@ -48,16 +49,16 @@ class NTFTable extends Component {
                     ))}
                   </tbody>
                 </table>
-                <div className="overlaybttn">
+                <OverlayButton>
                   <a id="bottomntf" href="#topntf">
                     <i className="fa fa-arrow-circle-up" aria-hidden="true" />
                     <span>Top</span>
                   </a>
-                </div>
+                </OverlayButton>
               </div>
             </div>
           </div>
-        </section>
+        </CourseTitle>
       </div>
     );
   }

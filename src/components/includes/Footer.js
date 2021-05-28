@@ -1,12 +1,13 @@
 import React from "react";
+import styled from "styled-components";
 import Logo from "../../assets/icon.png";
 import { Link } from "react-router-dom";
-// import Footbg from "../../assets/footer_bg.png";
+import { OverlayButton } from "../config/Palette";
 
 function Footer() {
   return (
     <div>
-      <footer data-aos="fade-up" data-aos-duration={3000}>
+      <FooterArea>
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -78,19 +79,135 @@ function Footer() {
             </span>{" "}
             All Rights Reserved
           </div>
-          <div className="overlaybttn">
+          <OverlayButton>
             <a id="bottombce" href="#top">
               <i className="fa fa-arrow-circle-up" aria-hidden="true" />
               <span>Top</span>
             </a>
-          </div>
-          {/* <div className="foot_bg">
-            <img src={Footbg} alt="footbg" srcSet />
-          </div> */}
+          </OverlayButton>
         </div>
-      </footer>
+      </FooterArea>
     </div>
   );
 }
 
 export default Footer;
+
+const FooterArea = styled.div`
+  text-align: center;
+  padding: 70px 0px 30px;
+  background: #efc7c7;
+  position: relative;
+  h3 {
+    color: #0f253b;
+  }
+  ul {
+    text-align: left;
+  }
+  ul li {
+    list-style-type: none;
+    padding: 5px 0px;
+  }
+  ul li span {
+    font-size: 26px;
+    font-family: Ubuntu;
+    color: #e0245e;
+    display: inline-block;
+    padding: 5px 0px;
+  }
+  ul li a {
+    font-family: Poppins;
+    text-decoration: none;
+    display: inline-block;
+    color: #e4e4e4;
+    color: #15202b;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+  ul li a:hover {
+    opacity: 0.8;
+  }
+  .cpy-rgt {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 0px 10px;
+    color: #15202b;
+  }
+
+  .cpy-rgt span a {
+    text-decoration: none;
+    color: #e0245e;
+    font-weight: 500;
+  }
+
+  .rotating {
+    max-width: 190px;
+    max-width: 50%;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    -webkit-animation: rotating 7s linear infinite;
+    animation: rotating 7s linear infinite;
+  }
+
+  .foot_bg img {
+    max-width: 100%;
+  }
+  .nav-link {
+    font-style: initial;
+  }
+  .nav-item .nav-link {
+    font-size: 18px;
+    color: #0c253a;
+    margin: 10px 0px;
+    font-weight: 400;
+    padding: 0px;
+    font-family: "Rubik";
+  }
+  .nav-link:hover {
+    border-bottom: 2px solid transparent;
+  }
+  .rotating {
+    max-width: 30% !important;
+  }
+  @-webkit-keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rotating {
+    from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @media (max-width: 991px) {
+  }
+  @media (max-width: 767px) {
+    .cpy-rgt {
+      font-size: 16px;
+    }
+    position: relative;
+    ul li span {
+      font-size: 18px;
+    }
+    ul li a {
+      font-size: 15px;
+    }
+    ul li h4 {
+      font-size: 17px;
+    }
+    ul li h5 {
+      font-size: 16px;
+    }
+  }
+`;

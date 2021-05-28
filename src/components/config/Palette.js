@@ -1,0 +1,174 @@
+import styled from "styled-components";
+
+export const CourseTitle = styled.div`
+  margin-top: 170px;
+  .card {
+    background-color: #ffffb299;
+  }
+  .section-title {
+    width: 100%;
+    padding-bottom: 40px;
+    font-size: 48px;
+  }
+
+  .section-title h1 {
+    font-weight: 900;
+    color: #15202bd1;
+    font-size: 26px;
+    font-weight: 400;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table tr th {
+    color: #0f253b;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  table tr td {
+    color: #0b0b0b;
+    padding: 10px;
+    border-style: none;
+    font-weight: 400;
+    height: 50px;
+    border-color: #fdfdfd61;
+  }
+
+  table tr td:nth-child(3) {
+    font-size: 15px;
+  }
+  .link a {
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+    background: #0c253a;
+    color: #e9dddd;
+    padding: 10px 5px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    display: inline-block;
+  }
+
+  .link a:hover {
+    background-color: transparent;
+    border: 2px solid #0c253a;
+    color: #0c253a;
+  }
+
+  @media (max-width: 991px) {
+    table tr {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      border-bottom: 1px groove rgb(184 105 105 / 45%);
+      padding: 25px;
+    }
+    table tr td {
+      padding: 20px 5px;
+      width: 33.33%;
+    }
+    table tr td:nth-child(4) {
+      width: 100% !important;
+    }
+    table tr th {
+      padding: 10px 5px;
+      width: 33.33%;
+    }
+    table tr th:nth-child(4) {
+      width: 100% !important;
+    }
+    table tr th:nth-child(5) {
+      width: 100%;
+    }
+  }
+  @media (max-width: 767px) {
+    padding: 0px 10px 0px !important;
+    .card {
+      text-align: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 30px 0px;
+    }
+    .section-title h1 {
+      font-size: 30px !important;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+    table tr th:first-child,
+    table tr th:nth-child(2) {
+      width: 50% !important;
+    }
+    table tr th {
+      font-size: 16px !important;
+      padding: 10px 5px;
+      width: 100%;
+      font-size: 12px;
+    }
+    table tr td {
+      width: 100%;
+    }
+    table tr td:first-child,
+    table tr td:nth-child(2) {
+      width: 50% !important;
+    }
+    table tr td:nth-child(3),
+    table tr td:nth-child(4) {
+      width: 100% !important;
+    }
+  }
+`;
+
+export const OverlayButton = styled.div`
+  margin: 20px 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+
+  .fa-arrow-circle-down,
+  .fa-arrow-circle-up {
+    color: #17bf63;
+    color: #e0245e;
+  }
+
+  a {
+    color: white;
+    color: #e0245e;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background: #d6abab73;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    font-family: Ubuntu;
+    font-weight: 500;
+    box-shadow: 2px 2px 3px #a7919146;
+  }
+
+  a i {
+    color: #4285f4;
+  }
+
+  a span {
+    padding-left: 2px;
+    display: inline-block;
+  }
+  a i,
+  a span {
+    font-size: 15px !important;
+  }
+`;

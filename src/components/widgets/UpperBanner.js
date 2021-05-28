@@ -1,13 +1,14 @@
 import React, { Component } from "react";
-import "./UpperBanner.css";
-import {FcBinoculars} from "react-icons/fc"
+import styled from "styled-components";
+import { FcBinoculars } from "react-icons/fc";
 import { IconContext } from "react-icons";
+import bannerImg from "../../assets/topbnrbg.jpg";
 
 class UpperBanner extends Component {
   render() {
     return (
       <div>
-        <div className="top-banner">
+        <TopBannerArea>
           <div className="top-bnr-overlay">
             <div className="home-shield row text-center justify-content-between">
               <div className="col-lg-6 col-md-6 col-sm-12">
@@ -54,10 +55,78 @@ class UpperBanner extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </TopBannerArea>
       </div>
     );
   }
 }
 
 export default UpperBanner;
+
+const TopBannerArea = styled.div`
+  background-image: url(${bannerImg});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .top-bnr-overlay {
+    height: inherit;
+    background-color: rgba(18, 20, 20, 0.603);
+  }
+  .top-over-details-part {
+    padding: 250px 0px;
+  }
+
+  .top-over-details-part h1 {
+    font-family: "Ubuntu";
+    color: #e0245e;
+    font-size: 3rem;
+  }
+
+  .top-over-details-part p {
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .home-shield {
+    position: absolute;
+    bottom: 110px;
+    right: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .home-shield {
+      position: absolute;
+      bottom: 55px;
+      right: 20px;
+    }
+    .top-over-details-part {
+      padding: 240px 0px 100px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .home-shield {
+      position: absolute;
+      bottom: 40px;
+      right: 10px;
+    }
+    .top-over-details-part h1 {
+      font-size: 1.1 rem;
+    }
+    .top-over-details-part p {
+      font-size: 1rem;
+    }
+    .top-over-details-part {
+      padding: 185px 0px 120px;
+    }
+    .top-over-details-part h1 {
+      font-size: 30px;
+    }
+
+    .top-over-details-part p {
+      font-size: 16px;
+      text-align: justify;
+      padding: 30px;
+    }
+  }
+`;

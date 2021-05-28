@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Bannerimg from "../../assets/banner.png";
 import { FcBinoculars } from "react-icons/fc";
 import { IconContext } from "react-icons";
@@ -6,10 +7,7 @@ import { IconContext } from "react-icons";
 function Banner() {
   return (
     <div>
-      <section
-        className="banner"
-        style={{ backgroundImage: `url(${Bannerimg})` }}
-      >
+      <BannerArea style={{ backgroundImage: `url(${Bannerimg})` }}>
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-6 col-sm-6 col-xsm-6" />
@@ -35,9 +33,47 @@ function Banner() {
             </div>
           </div>
         </div>
-      </section>
+      </BannerArea>
     </div>
   );
 }
 
 export default Banner;
+
+const BannerArea = styled.div`
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/banner.png);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  .banner-overlay {
+    padding: 200px 0px;
+  }
+  h1 {
+    color: #e0245e;
+    font-family: Ubuntu;
+  }
+  p {
+    margin-top: 20px;
+    color: #e9dddd;
+    font-family: Rubik;
+  }
+  @media (max-width: 991px) {
+    .banner-overlay {
+      padding: 120px 0px;
+    }
+  }
+  @media (max-width: 767px) {
+    background-position: bottom;
+    width: 100%;
+    p {
+      font-size: 14px;
+    }
+    .banner-overlay {
+      padding: 100px 15px;
+      width: 100%;
+      padding-left: 30px;
+    }
+  }
+`;

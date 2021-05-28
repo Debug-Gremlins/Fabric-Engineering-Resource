@@ -4,14 +4,12 @@ import UttaraBus from "../../assets/Uttara Route.png";
 import MirpurBus from "../../assets/Mirpur Route.png";
 import PurandhkBus from "../../assets/Jatrabari Route.png";
 import Card from "../customs/BusCard";
+import styled from "styled-components";
 
 function BusRoute() {
   return (
     <div>
-      <section
-        id="bsr"
-        className="bus-route"
-      >
+      <BusRouteSec id="bsr">
         <div className="container text-center">
           <div className="row">
             <div className="card bus1 col-lg-6 col-md-12 col-sm-12">
@@ -28,9 +26,63 @@ function BusRoute() {
             </div>
           </div>
         </div>
-      </section>
+      </BusRouteSec>
     </div>
   );
 }
 
 export default BusRoute;
+
+const BusRouteSec = styled.div`
+  margin-top: 200px;
+  padding: 10px;
+  h2 {
+    color: #e0245e;
+  }
+  .bus1,
+  .bus2,
+  .bus3,
+  .bus4 {
+    margin: 0;
+  }
+  img {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  .card {
+    background-color: #ffd2da94;
+    padding: 60px;
+  }
+  .card {
+    background-color: #ffffb299;
+  }
+  @media (max-width: 991px) {
+    .bus1,
+    .bus2,
+    .bus3,
+    .bus4 {
+      margin: 0;
+      padding: 10px;
+    }
+    .card {
+      padding: 30px 10px 50px;
+    }
+  }
+  @media (max-width: 767px) {
+    margin-top: 150px;
+    .bus1,
+    .bus2,
+    .bus3,
+    .bus4 {
+      margin: 0;
+      padding: 10px;
+    }
+    img {
+      max-width: 90%;
+    }
+    .card {
+      padding: 30px 10px 50px;
+    }
+  }
+`;

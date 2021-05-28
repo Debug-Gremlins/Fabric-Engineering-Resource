@@ -1,15 +1,14 @@
 import React from "react";
 import Devimg from "../../assets/developer.png";
+import styled from "styled-components";
 
 function Developer() {
   return (
     <div>
-      <section className="developedBy">
+      <DevelopedBy>
         <div className="container">
           <div className="row justify-content-between align-items-end">
-            <div
-              className="col-lg-6 col-md-12 col-sm-12 text-left"
-            >
+            <div className="col-lg-6 col-md-12 col-sm-12 text-left">
               <div className="dev-icon">
                 <img src={Devimg} alt="" srcSet />
               </div>
@@ -149,9 +148,123 @@ function Developer() {
             </div>
           </div>
         </div>
-      </section>
+      </DevelopedBy>
     </div>
   );
 }
 
 export default Developer;
+
+const DevelopedBy = styled.div`
+  padding: 70px 10px 20px;
+  .card {
+    background-color: #ffffb299;
+  }
+  h3 {
+    /* font-family: "Lobster Two"; */
+    color: #e0245e;
+  }
+  h5 {
+    color: #794bc4;
+    font-family: "Ubuntu";
+    margin: 20px 0px;
+  }
+  ul {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  ul li a i {
+    -webkit-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+  }
+  ul li .fa-facebook-square:hover {
+    color: #315aaa;
+  }
+
+  ul li .fa-twitter:hover {
+    color: #19c6f1;
+    list-style: none;
+  }
+
+  ul li a i {
+    -webkit-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+  }
+
+  ul li .fa-envelope:hover {
+    color: #d0f743;
+  }
+
+  ul li .fa-github:hover {
+    opacity: 0.5;
+  }
+
+  ul li .fa-discord:hover {
+    color: #7289d9;
+  }
+
+  ul li .fa-linkedin-in:hover {
+    color: #0e76a8;
+  }
+
+  h1 {
+    color: #e0245e;
+    font-family: Lobster Two;
+  }
+
+  p {
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 18px;
+    color: bisque;
+    color: #15273a;
+  }
+
+  a {
+    color: wheat;
+    color: #15202b;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .dev-icon {
+    margin: 150px 0px 50px;
+  }
+
+  .dev-icon img {
+    max-width: 100%;
+  }
+
+  .shield {
+    margin: 20px 0px 0px;
+  }
+
+  .shield h1 {
+    font-family: Ubuntu;
+  }
+
+  @media (max-width: 991px) {
+  }
+
+  @media (max-width: 767px) {
+    .developedBy ul {
+      padding: 0 15px !important;
+    }
+    .dev-card {
+      margin-top: 20px;
+    }
+    .dev-icon {
+      margin: 150px 0px 30px;
+    }
+    .social {
+      padding: 0;
+    }
+    .developedBy p {
+      padding: 18px 18px 0px;
+      font-size: 14px;
+    }
+    h4,
+    h5 {
+      font-size: 18px;
+    }
+  }
+`;

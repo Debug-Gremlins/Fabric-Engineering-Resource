@@ -107,18 +107,6 @@ header {
   -webkit-transform: translateZ(0) scale(1, 1);
 }
 
-/* .navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  background-image: url(../../assets//hamburger.png);
-} */
-
-
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
@@ -128,5 +116,28 @@ header {
   }
   .navbar .nav-item .dropdown-menu {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    text-align: center;
+    background-color: #16443eda !important;
+  }
+  @media (max-width: 767px) {
+     
+  .logo {
+    width: 100%;
+  }
+  .logo img {
+    width: 30%;
+    margin: auto;
+  }
+  .header-title {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
   }
 }

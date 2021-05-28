@@ -1,4 +1,5 @@
 import React from "react";
+import { CourseTitle, OverlayButton } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/math-data.json";
 
@@ -6,19 +7,19 @@ class MATHTable extends Component {
   render() {
     return (
       <div>
-        <section className="math" data-aos="fade-up" data-aos-duration={3000}>
+        <CourseTitle>
           <div className="container">
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div className="section-title">
                   <h1>Mathematics</h1>
                 </div>
-                <div className="overlaybttn">
+                <OverlayButton>
                   <a id="topmath" href="#bottommath">
                     <i className="fa fa-arrow-circle-down" aria-hidden="true" />
                     <span>Bottom</span>
                   </a>
-                </div>
+                </OverlayButton>
                 {/* table starts here */}
                 <table>
                   <tbody>
@@ -48,16 +49,16 @@ class MATHTable extends Component {
                     ))}
                   </tbody>
                 </table>
-                <div className="overlaybttn">
+                <OverlayButton>
                   <a id="bottommath" href="#topmath">
                     <i className="fa fa-arrow-circle-up" aria-hidden="true" />
                     <span>Top</span>
                   </a>
-                </div>
+                </OverlayButton>
               </div>
             </div>
           </div>
-        </section>
+        </CourseTitle>
       </div>
     );
   }
