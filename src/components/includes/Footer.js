@@ -106,7 +106,6 @@ const FooterArea = styled.div`
   }
   ul li {
     list-style-type: none;
-    padding: 5px 0px;
   }
   ul li span {
     font-size: 26px;
@@ -130,7 +129,7 @@ const FooterArea = styled.div`
   .cpy-rgt {
     font-size: 20px;
     font-weight: 500;
-    padding: 20px 0px 10px;
+    padding: 10px 0px;
     color: #15202b;
   }
 
@@ -141,11 +140,8 @@ const FooterArea = styled.div`
   }
 
   .rotating {
-    max-width: 190px;
     max-width: 50%;
-    -webkit-transition: all linear 0.5s;
     transition: all linear 0.5s;
-    -webkit-animation: rotating 7s linear infinite;
     animation: rotating 7s linear infinite;
   }
 
@@ -156,9 +152,9 @@ const FooterArea = styled.div`
     font-style: initial;
   }
   .nav-item .nav-link {
-    font-size: 18px;
+    font-size: 16px;
     color: #0c253a;
-    margin: 10px 0px;
+    margin: 5px 0px;
     font-weight: 400;
     padding: 0px;
     font-family: "Rubik";
@@ -194,7 +190,7 @@ const FooterArea = styled.div`
   }
   @media (max-width: 767px) {
     .cpy-rgt {
-      font-size: 16px;
+      font-size: 14px;
     }
     position: relative;
     ul li span {

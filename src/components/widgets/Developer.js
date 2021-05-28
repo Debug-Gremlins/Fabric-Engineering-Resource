@@ -158,6 +158,7 @@ export default Developer;
 const DevelopedBy = styled.div`
   padding: 70px 10px 20px;
   .card {
+    padding: 30px 20px;
     background-color: #ffffb299;
   }
   h3 {
@@ -171,7 +172,7 @@ const DevelopedBy = styled.div`
   }
   ul {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 15px;
   }
   ul li a i {
     -webkit-transition: all linear 0.3s;
@@ -215,7 +216,7 @@ const DevelopedBy = styled.div`
   p {
     font-family: "Rubik";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
     color: bisque;
     color: #15273a;
   }

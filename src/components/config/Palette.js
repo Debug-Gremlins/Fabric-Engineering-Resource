@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CourseTitle = styled.div`
-  margin-top: 170px;
+  margin-top: 150px;
   .card {
     background-color: #ffffb299;
   }
@@ -29,11 +29,12 @@ export const CourseTitle = styled.div`
   }
 
   table tr td {
+    font-family: 'Rubik';
     color: #0b0b0b;
     padding: 10px;
     border-style: none;
     font-weight: 400;
-    height: 50px;
+    height: auto;
     border-color: #fdfdfd61;
   }
 
@@ -43,7 +44,6 @@ export const CourseTitle = styled.div`
   .link a {
     width: 100%;
     text-decoration: none;
-    color: inherit;
     background: #0c253a;
     color: #e9dddd;
     padding: 10px 5px;

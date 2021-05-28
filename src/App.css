@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Raleway:wght@200;300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&family=Ubuntu:wght@300;400;500&display=swap");
 
@@ -35,13 +34,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(61, 61, 59); /* color of the tracking area */
+  background: rgb(71, 71, 66); /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: rgb(158, 158, 175); /* color of the scroll thumb */
+  background-color: rgb(136, 136, 167); /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid rgb(145, 145, 151); /* creates padding around scroll thumb */
+  border: 1px solid rgb(145, 145, 151); /* creates padding around scroll thumb */
 }
 
 /* Universal CSS */

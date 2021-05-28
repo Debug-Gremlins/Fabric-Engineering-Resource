@@ -56,54 +56,55 @@ export default Syllabus;
 
 const SyllabusArea = styled.div`
   padding: 200px 0px 40px;
-  .sylb .btn {
+  .btn {
     margin: 5px 0px;
     border: 2px solid #093d68;
   }
-  .sylb .btn a {
+  .btn a {
     color: #093d68;
   }
 
-  .sylb .btn:hover {
+  .btn:hover {
     background-color: #093d68;
     border: 2px solid transparent;
   }
 
-  .sylb .btn:hover a {
+  .btn:hover a {
     color: #a89f9f;
   }
 
-  .sylb section table tr {
+  table tr {
     display: -ms-flexbox;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 25px;
   }
 
-  .sylb section table tr td {
+  table tr td {
     padding: 20px 5px;
     width: 50%;
-  }
-
-  .sylb table tr td {
-    justify-content: space-between;
-    padding: 10px;
-    font-weight: 300;
+    padding: 10px 0px;
     height: auto;
+    border-bottom: 1px solid #ffffb267;
   }
 
   .sylb .card {
     background-color: #ffffb299;
     align-items: inherit;
+    padding: 30px;
   }
 
   @media (max-width: 767px) {
     padding: 0;
-    margin-top: 170px;
+    margin-top: 150px;
 
     table tr td:first-child,
-    section table tr td:nth-child(2) {
+    table tr td:nth-child(2) {
+      width: 50% !important;
+    }
+
+    table tr td:first-child,
+    table tr td:nth-child(2) {
       width: 50% !important;
     }
 
@@ -111,21 +112,9 @@ const SyllabusArea = styled.div`
       font-size: 26px;
       font-weight: 400;
     }
-    .sylb table tr td:first-child,
-    .sylb table tr td:nth-child(2) {
-      width: 50% !important;
+    h5 {
+      font-size: 18px;
     }
-
-    .sylb h2 {
-      font-size: 26px;
-      font-weight: 400;
-    }
-    .card {
-      text-align: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      padding: 30px 0px;
-    }
+    padding: 30px 0px;
   }
 `;
