@@ -1,8 +1,8 @@
 import React from "react";
-import Banner from "../components/widgets/Banner";
-import Details from "../components/widgets/Details";
-import Counter from "../components/widgets/CounterUp";
-import UpperBanner from '../components/widgets/UpperBanner'
+import Banner from "../components/customs/Banner";
+import Details from "../components/customs/Details";
+import Counter from "../components/customs/CounterUp";
+import UpperBanner from '../components/customs/UpperBanner'
 
 function HomePage() {
   return (

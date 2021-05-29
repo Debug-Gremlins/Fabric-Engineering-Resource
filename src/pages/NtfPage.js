@@ -1,5 +1,5 @@
 import React from "react";
-import NTF from "../components/customs/subjects/NTFTable";
+import NTF from "../components/widgets/subjects/NTFTable";
 
 function NtfPage() {
   return (

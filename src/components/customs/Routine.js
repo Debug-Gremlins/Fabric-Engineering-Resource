@@ -1,6 +1,6 @@
 import React from "react";
 import Rotimg from "../../assets/exs.png";
-import RoutineCard from "../customs/RoutineCard";
+import RoutineCard from "../widgets/RoutineCard";
 import styled from "styled-components";
 
 function Routine() {

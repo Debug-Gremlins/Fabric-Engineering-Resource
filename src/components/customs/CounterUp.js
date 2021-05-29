@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import CustomCount from "../customs/CouterComp";
+import CustomCount from "../widgets/CouterComp";
 import { BiShieldAlt } from "react-icons/bi";
 import { FiSlack } from "react-icons/fi";
 import { ImBook } from "react-icons/im";

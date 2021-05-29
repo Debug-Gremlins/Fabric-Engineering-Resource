@@ -7,10 +7,10 @@ import { IconContext } from "react-icons";
 function Banner() {
   return (
     <div>
-      <BannerArea style={{ backgroundImage: `url(${Bannerimg})` }}>
+      <BannerArea>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xsm-6" />
+            <div className="col-lg-6 col-md-6 col-sm-6 col-xsm-12" />
             <div className="banner-overlay text-left col-lg-6 col-md-6 col-sm-6 col-xsm-6">
               <h1>Free E-books</h1>
               <p>
@@ -43,7 +43,7 @@ export default Banner;
 const BannerArea = styled.div`
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../src/assets/banner.png);
+  background-image: url(${Bannerimg});
   background-size: cover;
   background-attachment: fixed;
   position: relative;
