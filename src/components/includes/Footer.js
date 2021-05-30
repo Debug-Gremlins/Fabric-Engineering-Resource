@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Logo from "../../assets/icon.png";
 import { Link } from "react-router-dom";
 import { OverlayButton } from "../config/Palette";
+import FooterLink from "../widgets/FooterLink";
 
 function Footer() {
   return (
@@ -10,11 +11,16 @@ function Footer() {
       <FooterArea>
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <ul>
-                <li>
+                {/* <li>
                   <span>Planned and Developed by :</span>
                   <h3>Arnob Mahmud</h3>
+                </li> */}
+                <li>
+                  <Link to="/">
+                    <img className="rotating" src={Logo} alt="" srcSet />
+                  </Link>
                 </li>
                 <li>
                   <span>Our Departmental Group : </span>
@@ -28,48 +34,105 @@ function Footer() {
                     </a>
                   </h3>
                 </li>
-                <li>
-                  {/* <a href="#home" target="_blank"></a> */}
-                  <Link to="/">
-                    <img className="rotating" src={Logo} alt="" srcSet />
-                  </Link>
-                </li>
               </ul>
             </div>
-            <div className="col-lg-6">
-              <ul>
-                <li>
-                  <h4>Suggest Changes to Update Next Version!</h4>
-                </li>
-                <li>
-                  <h5>Go to Individual Section</h5>
-                </li>
-                <li className="nav-item">
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <FooterLink
+                title="Individual Sections"
+                subTitle=""
+                link1={
                   <Link className="nav-link" to="/bce">
                     BCE
                   </Link>
-                </li>
-                <li className="nav-item">
+                }
+                link2={
                   <Link className="nav-link" to="/chemistry">
                     Chemistry
                   </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/math">
-                    Mathematics
-                  </Link>
-                </li>
-                <li className="nav-item">
+                }
+                link3={
                   <Link className="nav-link" to="/ntf">
                     NTF
                   </Link>
-                </li>
-                <li className="nav-item">
+                }
+                link4={
+                  <Link className="nav-link" to="/math">
+                    Mathematics
+                  </Link>
+                }
+                link5={
                   <Link className="nav-link" to="/physics">
                     Physics
                   </Link>
-                </li>
-              </ul>
+                }
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <FooterLink
+                title="Extras"
+                subTitle=" "
+                link1={
+                  <Link className="nav-link" to="/accessories/#bsr">
+                    Bus Route
+                  </Link>
+                }
+                link2={
+                  <Link className="nav-link" to="/accessories/#routine">
+                    PDF Folder
+                  </Link>
+                }
+                link3={
+                  <Link className="nav-link" to="/accessories/#routine">
+                    Routine
+                  </Link>
+                }
+                link4={
+                  <Link className="nav-link" to="/syllabus">
+                    Syllabus
+                  </Link>
+                }
+                link5={
+                  <Link className="nav-link" to="/examinfo">
+                    Term Updates
+                  </Link>
+                }
+              />
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
+              <FooterLink
+                title="Developer Panel"
+                subTitle="Suggest changes for deploying next version!"
+                link1={
+                  <Link className="nav-link" to="/developer">
+                    Developer
+                  </Link>
+                }
+                link2={
+                  <a
+                    className="nav-link"
+                    href="mailto: arnob.tech.me@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Mail Me
+                  </a>
+                }
+                link3={
+                  <a
+                    className="nav-link"
+                    href="https://github.com/Debug-Gremlins/Fabric-Engineering-Resource/blob/master/README.md"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Current Version {}
+                    <img
+                      src="https://img.shields.io/github/package-json/v/Debug-Gremlins/Fabric-Engineering-Resources?&labelColor=f4eee8&color=important&label=yarn Deployed&logo=Yarn&logoColor=blue&style=plastic"
+                      alt="cq"
+                      srcSet
+                    />
+                  </a>
+                }
+              />
             </div>
           </div>
           <div className="cpy-rgt">
@@ -100,6 +163,16 @@ const FooterArea = styled.div`
   position: relative;
   h3 {
     color: #0f253b;
+    font-size: 20px;
+  }
+  h4 {
+    color: #e0245e;
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
+    color: #093d68;
   }
   ul {
     text-align: left;
@@ -108,7 +181,7 @@ const FooterArea = styled.div`
     list-style-type: none;
   }
   ul li span {
-    font-size: 26px;
+    font-size: 20px;
     font-family: Ubuntu;
     color: #e0245e;
     display: inline-block;
@@ -129,7 +202,7 @@ const FooterArea = styled.div`
   .cpy-rgt {
     font-size: 18px;
     font-weight: 500;
-    padding: 10px 0px;
+    padding: 40px 0px 10px;
     color: #15202b;
   }
 
@@ -138,21 +211,11 @@ const FooterArea = styled.div`
     color: #e0245e;
     font-weight: 500;
   }
-
-  .rotating {
-    max-width: 50%;
-    transition: all linear 0.5s;
-    animation: rotating 7s linear infinite;
-  }
-
-  .footerOverlay{
+  .footerOverlay {
     margin: 0;
     bottom: 60px;
     right: 40px;
-    position :absolute
-  }
-  .nav-link {
-    font-style: initial;
+    position: absolute;
   }
   .nav-item .nav-link {
     font-size: 16px;
@@ -165,10 +228,13 @@ const FooterArea = styled.div`
   .nav-link:hover {
     border-bottom: 2px solid transparent;
   }
-  .rotating {
-    max-width: 30% !important;
+  .nav-item {
+    padding-left: 0;
   }
-  @-webkit-keyframes rotating {
+  .rotating {
+    max-width: 70% !important;
+  }
+  /* @-webkit-keyframes rotating {
     from {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -188,10 +254,11 @@ const FooterArea = styled.div`
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
-  }
+  } */
   @media (max-width: 991px) {
   }
   @media (max-width: 767px) {
+    padding: 50px 0px 10px;
     .cpy-rgt {
       font-size: 12px;
     }
@@ -207,6 +274,9 @@ const FooterArea = styled.div`
     }
     ul li h5 {
       font-size: 16px;
+    }
+    .rotating {
+      max-width: 40% !important;
     }
   }
 `;

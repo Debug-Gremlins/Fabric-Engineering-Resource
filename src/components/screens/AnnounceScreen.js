@@ -74,9 +74,8 @@ const AnnounceArea = styled.div`
   }
   @media (max-width: 767px) {
     padding: 180px 20px 50px;
-    .card {
+    .card:nth-child(2) {
       margin-left: 0px;
-      margin-bottom: 30px;
     }
     h1 {
       font-size: 28px;
