@@ -160,7 +160,7 @@ const FooterArea = styled.div`
   font-family: Ubuntu;
   text-align: center;
   padding: 90px 0px 10px;
-  background: #efc7c7;
+  background: #efc7b9;
   position: relative;
   h3 {
     color: #0f253b;

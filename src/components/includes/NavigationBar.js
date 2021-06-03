@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/icon.png";
 import {
   FcHome,
   FcIdea,
@@ -40,7 +40,7 @@ const NavigationBar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcHome /> Home
+                      <FcHome />Home
                     </IconContext.Provider>
                   </Link>
                 </li>
@@ -54,7 +54,7 @@ const NavigationBar = () => {
                     aria-expanded="false"
                   >
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcIdea /> Resources
+                      <FcIdea />Resources
                     </IconContext.Provider>
                   </Link>
                   <ul
@@ -91,7 +91,7 @@ const NavigationBar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/syllabus">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcRules /> Syllabus
+                      <FcRules />Syllabus
                     </IconContext.Provider>
                   </Link>
                 </li>
@@ -100,21 +100,21 @@ const NavigationBar = () => {
                 <li className="nav-item">
                   <Link className="nav-link" to="/accessories">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcMindMap /> Accessories
+                      <FcMindMap />Accessories
                     </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/notice">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcSurvey /> Notice
+                      <FcSurvey />Notice
                     </IconContext.Provider>
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/developer">
                     <IconContext.Provider value={{ size: "25" }}>
-                      <FcElectronics /> Developer
+                      <FcElectronics />Developer
                     </IconContext.Provider>
                   </Link>
                 </li>
@@ -122,7 +122,7 @@ const NavigationBar = () => {
             </div>
 
             <Link className="navbar-brand navbar-logo" to="/" exact>
-              <img className="rotate" src={Logo} alt="" srcSet />
+              <img className="navBrand" src={Logo} alt="" srcSet />
             </Link>
           </div>
         </nav>

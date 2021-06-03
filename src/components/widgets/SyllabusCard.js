@@ -94,9 +94,6 @@ const SyllabusArea = styled.div`
   }
 
   @media (max-width: 767px) {
-    padding: 0;
-    margin-top: 150px;
-
     table tr td:first-child,
     table tr td:nth-child(2) {
       width: 50% !important;

@@ -1,6 +1,6 @@
 header {
-  background-color: #16443ef6;
-  padding: 30px 0px 40px;
+  background-color: #16443e;
+  padding: 25px 0px;
   position: fixed;
   top: 0px;
   right: 0;
@@ -33,7 +33,6 @@ header {
   position: absolute;
   background-color: #0c0a0a;
   min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -80,29 +79,33 @@ header {
 .navbar-brand {
   margin-right: 0 !important;
   right: 50%;
-  -webkit-transform: translate(50%, -60px);
-  transform: translate(50%, -60px);
-  top: 0;
+  transform: translate(50%, -35px);
+  top: 10%;
   position: absolute;
+  height: 180px; /* 185*/
+  width: 170px;
+  background-color: #16443e;
+  border-radius: 50%;
+  /* box-shadow: 3px 3px 14px 3px #00000061; */
 }
 
 .navbar-brand img {
-  max-width: 180px;
-  -webkit-transition: all linear 0.3s;
-  transition: all linear 0.3s;
+  max-width: 140px; /*145*/
+  position: absolute;
+  transform: translate(11%, 10%);
 }
 
-.rotate {
+/* .navBrand {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
-}
+} */
 
-.rotate:hover {
+/* .navBrand:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
-}
+} */
 
-.rotating {
+.navBrand {
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
 }
@@ -126,18 +129,20 @@ header {
     background-color: #16443eda !important;
   }
   @media (max-width: 767px) {
-     
-  .logo {
-    width: 100%;
-  }
-  .logo img {
-    width: 30%;
-    margin: auto;
-  }
-  .header-title {
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
+    .logo {
+      width: 100%;
+    }
+    .logo img {
+      width: 30%;
+      margin: auto;
+    }
+    .header-title {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .navbar-brand {
+      top: 0;
+    }
   }
 }
