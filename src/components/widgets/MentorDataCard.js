@@ -8,7 +8,7 @@ export class MentorDataCard extends Component {
           <div className="content">
             <h1>{this.props.name}</h1>
             <h4>{this.props.info}</h4>
-            <p>{this.props.contact}</p>
+            <p>Contact No : {this.props.contact}</p>
           </div>
         </div>
       </>

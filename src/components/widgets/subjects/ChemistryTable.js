@@ -2,7 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/chemistry-data.json";
-import ChemistryInfo from "../../contact/ChemistryInfo";
+import ChemistryInfo from "../../lecturerData/ChemistryInfo";
 
 class ChemistryTable extends Component {
   render() {

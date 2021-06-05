@@ -2,7 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import data from "../../../json/bce-data.json";
 import { Component } from "react";
-import BCEInfo from "../../contact/BCEInfo";
+import BCEInfo from "../../lecturerData/BCEInfo";
 
 class BCETable extends Component {
   render() {

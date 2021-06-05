@@ -2,7 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import data from "../../../json/ntf-data.json";
 import { Component } from "react";
-import NTFInfo from "../../contact/NTFInfo";
+import NTFInfo from "../../lecturerData/NTFInfo";
 
 class NTFTable extends Component {
   render() {

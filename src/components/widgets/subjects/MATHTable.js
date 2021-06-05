@@ -2,7 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/math-data.json";
-import MathInfo from "../../contact/MathInfo";
+import MathInfo from "../../lecturerData/MathInfo";
 
 class MATHTable extends Component {
   render() {

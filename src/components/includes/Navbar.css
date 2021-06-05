@@ -26,6 +26,7 @@ header {
   font-family: inherit;
   border: none;
   margin: 0;
+  padding: 0;
 }
 
 .dropdown-content {

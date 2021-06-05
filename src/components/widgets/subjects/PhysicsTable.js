@@ -2,7 +2,7 @@ import React from "react";
 import { CourseTitle, OverlayButton } from "../../config/Palette";
 import { Component } from "react";
 import data from "../../../json/physics-data.json";
-import PhysicsInfo from "../../contact/PhysicsInfo";
+import PhysicsInfo from "../../lecturerData/PhysicsInfo";
 
 class PhysicsTable extends Component {
   render() {
