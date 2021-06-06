@@ -41,6 +41,7 @@ const RoutineArea = styled.div`
   margin-top: 80px;
   .card{
     margin-top: 0px;
+    align-items: center;
   }
   .section-title {
     width: 100%;
