@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Fabric-Engineering-Resource/static/css/main.37e746d7.chunk.css",
-    "main.js": "/Fabric-Engineering-Resource/static/js/main.88495e75.chunk.js",
-    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.88495e75.chunk.js.map",
+    "main.css": "/Fabric-Engineering-Resource/static/css/main.a5ee1a5c.chunk.css",
+    "main.js": "/Fabric-Engineering-Resource/static/js/main.31dde17a.chunk.js",
+    "main.js.map": "/Fabric-Engineering-Resource/static/js/main.31dde17a.chunk.js.map",
     "runtime-main.js": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js",
     "runtime-main.js.map": "/Fabric-Engineering-Resource/static/js/runtime-main.488d21d2.js.map",
     "static/js/2.d411132c.chunk.js": "/Fabric-Engineering-Resource/static/js/2.d411132c.chunk.js",
     "static/js/2.d411132c.chunk.js.map": "/Fabric-Engineering-Resource/static/js/2.d411132c.chunk.js.map",
     "index.html": "/Fabric-Engineering-Resource/index.html",
-    "static/css/main.37e746d7.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.37e746d7.chunk.css.map",
+    "static/css/main.a5ee1a5c.chunk.css.map": "/Fabric-Engineering-Resource/static/css/main.a5ee1a5c.chunk.css.map",
     "static/js/2.d411132c.chunk.js.LICENSE.txt": "/Fabric-Engineering-Resource/static/js/2.d411132c.chunk.js.LICENSE.txt",
     "static/media/Azimpur Route.92127732.png": "/Fabric-Engineering-Resource/static/media/Azimpur Route.92127732.png",
     "static/media/Jatrabari Route.2f280d4d.png": "/Fabric-Engineering-Resource/static/media/Jatrabari Route.2f280d4d.png",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.488d21d2.js",
     "static/js/2.d411132c.chunk.js",
-    "static/css/main.37e746d7.chunk.css",
-    "static/js/main.88495e75.chunk.js"
+    "static/css/main.a5ee1a5c.chunk.css",
+    "static/js/main.31dde17a.chunk.js"
   ]
 }
