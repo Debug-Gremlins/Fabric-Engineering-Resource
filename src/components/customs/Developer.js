@@ -170,7 +170,7 @@ const DevelopedBy = styled.div`
     color: ${({ theme }) => theme.codeAnalysis};
   }
   h5 {
-    color: #794bc4;
+    color: ${({ theme }) => theme.devh5};
     font-family: "Ubuntu";
     margin: 20px 0px;
   }

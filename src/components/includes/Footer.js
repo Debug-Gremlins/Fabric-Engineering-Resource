@@ -41,27 +41,27 @@ function Footer() {
                 title="Individual Sections"
                 subTitle=""
                 link1={
-                  <Link className="nav-link" to="/bce1-1">
+                  <Link className="foot-link" to="/bce1-1">
                     BCE
                   </Link>
                 }
                 link2={
-                  <Link className="nav-link" to="/chemistry1-1">
+                  <Link className="foot-link" to="/chemistry1-1">
                     Chemistry
                   </Link>
                 }
                 link3={
-                  <Link className="nav-link" to="/ntf1-1">
+                  <Link className="foot-link" to="/ntf1-1">
                     NTF
                   </Link>
                 }
                 link4={
-                  <Link className="nav-link" to="/math1-1">
+                  <Link className="foot-link" to="/math1-1">
                     Mathematics
                   </Link>
                 }
                 link5={
-                  <Link className="nav-link" to="/physics1-1">
+                  <Link className="foot-link" to="/physics1-1">
                     Physics
                   </Link>
                 }
@@ -72,27 +72,27 @@ function Footer() {
                 title="Extras"
                 subTitle=" "
                 link1={
-                  <Link className="nav-link" to="/accessories/#bsr">
+                  <Link className="foot-link" to="/accessories/#bsr">
                     Bus Route
                   </Link>
                 }
                 link2={
-                  <Link className="nav-link" to="/accessories/#routine">
+                  <Link className="foot-link" to="/accessories/#routine">
                     PDF Folder
                   </Link>
                 }
                 link3={
-                  <Link className="nav-link" to="/accessories/#routine">
+                  <Link className="foot-link" to="/accessories/#routine">
                     Routine
                   </Link>
                 }
                 link4={
-                  <Link className="nav-link" to="/syllabus">
+                  <Link className="foot-link" to="/syllabus">
                     Syllabus
                   </Link>
                 }
                 link5={
-                  <Link className="nav-link" to="/notice">
+                  <Link className="foot-link" to="/notice">
                     Term Updates
                   </Link>
                 }
@@ -103,13 +103,13 @@ function Footer() {
                 title="Developer Panel"
                 subTitle="Suggest changes for deploying next version!"
                 link1={
-                  <Link className="nav-link" to="/developer">
+                  <Link className="foot-link" to="/developer">
                     Developer
                   </Link>
                 }
                 link2={
                   <a
-                    className="nav-link"
+                    className="foot-link"
                     href="mailto: arnob.tech.me@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -119,12 +119,12 @@ function Footer() {
                 }
                 link3={
                   <a
-                    className="nav-link"
+                    className="foot-link"
                     href="https://github.com/Debug-Gremlins/Fabric-Engineering-Resource/blob/master/README.md"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Current Version {}
+                    Current Version &nbsp;
                     <img
                       src="https://img.shields.io/github/package-json/v/Debug-Gremlins/Fabric-Engineering-Resources?&labelColor=f4eee8&color=important&label=yarn Deployed&logo=Yarn&logoColor=blue&style=plastic"
                       alt="cq"
@@ -218,19 +218,13 @@ const FooterArea = styled.div`
     right: 40px;
     position: absolute;
   }
-  .nav-item .nav-link {
+  .foot-link {
     font-size: 16px;
     color: ${({ theme }) => theme.footerNav};
     margin: 5px 0px;
     font-weight: 400;
     padding: 0px;
     font-family: "Rubik";
-  }
-  .nav-link:hover {
-    border-bottom: 2px solid transparent;
-  }
-  .nav-item {
-    padding-left: 0;
   }
   .rotating {
     max-width: 70% !important;

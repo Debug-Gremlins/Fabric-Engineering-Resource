@@ -1,4 +1,5 @@
 export const lightTheme = {
+  headerBG: "#16443e",
   body: "#ffd2da94",
   text: "#363537",
   h2: "#0c253a",
@@ -20,6 +21,7 @@ export const lightTheme = {
   overlayBtnBg: "#d6abab73",
   overlayBtnBoxShd: "#a7919146",
   devTitleColor: "#e0245e",
+  devh5:" #794bc4",
   codeAnalysis: "#e0245e",
   footerBG: "#efc7b9",
   footerh4: "#e0245e",
@@ -33,6 +35,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
+  headerBG: "#443640",
   body: "#4d4250",
   text: "#FAFAFA",
   h2: "#453749",
@@ -46,7 +49,7 @@ export const darkTheme = {
   contentParagraph: "757575",
   contentBtna: "0c253a",
   gradient: "linear-gradient(#091236, #1E215D)",
-  detailsHeader: "#c2c2c2",
+  detailsHeader: "#e0245e",
   detailsParagraph: "#ddd",
   levelTermParagraph: "#312135",
   overlayBtnIcon: "#e0245e",
@@ -54,6 +57,7 @@ export const darkTheme = {
   overlayBtnBoxShd: "#1e0d0d3b",
   devTitleColor: " #1e1938",
   codeAnalysis: "#1e1938",
+  devh5: "#1e1938",
   footerBG: "#2e2c35",
   footerh4: "#e0245e",
   footerh3: "#0f253b",
