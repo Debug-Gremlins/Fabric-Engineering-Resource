@@ -23,7 +23,7 @@ a {
   text-align: center;
   padding: 50px;
   border-radius: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   border: none;
   background: ${({ theme }) => theme.cardBG};
   box-shadow: ${({ theme }) => theme.cardBoxShd};
@@ -60,10 +60,10 @@ a {
   }
   
   
-h2 {
-  color: #0c253a;
-  font-size: 26px;
-  font-weight: 500;
+  h2 {
+   color: #0c253a;
+   font-size: 26px;
+   font-weight: 500;
 }
 
 .btn {

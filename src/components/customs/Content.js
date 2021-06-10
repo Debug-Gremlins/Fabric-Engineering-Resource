@@ -35,7 +35,7 @@ export default Content;
 
 const ContentArea = styled.div`
   background: ${({ theme }) => theme.contentBG};
-  padding: 70px 0px;
+  padding: 90px 0px;
 
   h2 {
     color: ${({ theme }) => theme.contentH2};
@@ -56,13 +56,13 @@ const ContentArea = styled.div`
   .btn {
     margin-top: 10px;
     padding: 10px 20px;
-    border: 2px solid  ${({ theme }) => theme.contentBtnBorder} ;
+    border: 2px solid ${({ theme }) => theme.contentBtnBorder};
     background-color: transparent;
     border-radius: 25px;
     transition: all linear 0.3s;
   }
   .btn a {
-    color: ${({ theme }) => theme.contentBtna} ;
+    color: ${({ theme }) => theme.contentBtna};
   }
   .btn:hover {
     background: #0c253a;

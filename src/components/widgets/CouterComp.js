@@ -8,7 +8,7 @@ class CouterComp extends Component {
         <div className="card">
           <IconContext.Provider
             className="icons"
-            value={{ size: "60", color: "#15202b" }}
+            value={{ size: "60", color: "#312135" }}
           >
             {this.props.icons}
           </IconContext.Provider>

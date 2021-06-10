@@ -8,7 +8,7 @@ const Routine = () => {
     <>
       <RoutineArea id="routine">
         <div className="container">
-          <div className="row align-items-end">
+          <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <img src={Rotimg} alt="" srcSet />
             </div>

@@ -7,7 +7,7 @@ const Developer = () => {
     <>
       <DevelopedBy>
         <div className="container">
-          <div className="row justify-content-between align-items-end">
+          <div className="row justify-content-between align-items-center">
             <div className="col-lg-6 col-md-12 col-sm-12 text-left">
               <div className="dev-icon">
                 <img src={Devimg} alt="" srcSet />

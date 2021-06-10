@@ -43,11 +43,11 @@ const CounterUp = () => {
 export default CounterUp;
 
 const CounterArea = styled.div`
-  padding: 90px 0px 10px;
+  padding: 90px 0px 60px;
   align-items: center;
   .card {
     padding: 100px 20px;
-    background : ${({ theme }) => theme.cardBg};
+    background: ${({ theme }) => theme.cardBg};
     align-items: center;
   }
   h1 {

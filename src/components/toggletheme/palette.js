@@ -53,7 +53,7 @@ export const darkTheme = {
   contentH2: "#312135",
   contentHr: "eee",
   contentParagraph: "757575",
-  contentBtna: "0c253a",
+  contentBtna: "#312135",
   gradient: "linear-gradient(#091236, #1E215D)",
   detailsHeader: "#bbb",
   detailsParagraph: "#ddd",
