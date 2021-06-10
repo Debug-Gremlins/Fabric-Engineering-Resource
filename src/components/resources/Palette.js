@@ -1,7 +1,6 @@
 import styled from "styled-components";
 export const ResourceArea = styled.div`
-  margin-top: 200px;
-  margin-bottom: 40px;
+  margin: 200px 0px 60px;
   .content {
     text-align: left;
   }

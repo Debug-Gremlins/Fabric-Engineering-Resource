@@ -156,6 +156,7 @@ const Developer = () => {
 export default Developer;
 
 const DevelopedBy = styled.div`
+  margin: 150px 0px 60px;
   .card {
     padding: 30px 20px;
     background: ${({ theme }) => theme.cardBG};
@@ -225,9 +226,6 @@ const DevelopedBy = styled.div`
     color: #15202b;
     text-decoration: none;
     font-size: 20px;
-  }
-  .dev-icon {
-    margin: 150px 0px 50px;
   }
 
   .dev-icon img {

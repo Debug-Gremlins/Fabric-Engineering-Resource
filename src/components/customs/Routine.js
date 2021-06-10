@@ -38,10 +38,9 @@ const Routine = () => {
 export default Routine;
 
 const RoutineArea = styled.div`
-  margin-top: 80px;
+  margin: 20px 0px 60px;
   .card {
     background: ${({ theme }) => theme.cardBG};
-    margin-top: 0px;
     align-items: center;
   }
   .section-title {

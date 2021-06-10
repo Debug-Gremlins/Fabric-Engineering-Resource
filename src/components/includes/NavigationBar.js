@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/icon.png";
+import Logo from "../../assets/logo.png";
 import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { GiArrowScope } from "react-icons/gi";
@@ -130,6 +130,13 @@ const Header = styled.div`
     border-radius: 50%;
     /* box-shadow: 3px 3px 14px 3px #00000061; */
   }
+
+  .navbar-brand img {
+    max-width: 140px; /*145*/
+    position: absolute;
+    transform: translate(13%, 10%);
+  }
+
   .nav-item {
     padding: 0px 10px;
   }
@@ -192,21 +199,10 @@ const Header = styled.div`
     border-bottom: 2px solid #8d6a6a;
   }
 
-  .navbar-brand img {
-    max-width: 140px; /*145*/
-    position: absolute;
-    transform: translate(11%, 10%);
-  }
-
   .navBrand {
-    -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1, 1);
+    backface-visibility: hidden;
+    transform: translateZ(0) scale(1, 1);
   }
-
-  /* .navBrand:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-} */
 
   @media all and (min-width: 992px) {
     .navbar .nav-item .dropdown-menu {

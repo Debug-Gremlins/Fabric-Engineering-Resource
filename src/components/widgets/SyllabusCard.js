@@ -55,7 +55,7 @@ class Syllabus extends Component {
 export default Syllabus;
 
 const SyllabusArea = styled.div`
-  padding: 200px 0px 40px;
+  padding: 200px 0px 60px;
   .btn {
     margin: 5px 0px;
     border: 2px solid #093d68;

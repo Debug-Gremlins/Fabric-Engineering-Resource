@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const CourseTitle = styled.div`
-  margin-top: 200px;
+  margin: 200px 0px 40px;
   .card {
     background: ${({ theme }) => theme.cardBG};
-    /* background-color: #ffffb299; */
     align-items: center;
   }
   .section-title {
@@ -146,7 +145,7 @@ export const OverlayButton = styled.div`
     transition-duration: 0.3s;
     font-family: Ubuntu;
     font-weight: 500;
-    box-shadow: 2px 2px 3px ${({ theme }) => theme.overlayBtnBoxShd} ;
+    box-shadow: 2px 2px 3px ${({ theme }) => theme.overlayBtnBoxShd};
   }
 
   a i {
@@ -259,6 +258,7 @@ export const ScreenArea = styled.div`
 `;
 
 export const InfoArea = styled.div`
+  margin: 60px 0px;
   .content {
     text-align: left !important;
   }
