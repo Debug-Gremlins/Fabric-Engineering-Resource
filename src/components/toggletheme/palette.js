@@ -1,6 +1,9 @@
 export const lightTheme = {
   headerBG: "#16443e",
   body: "#ffd2da94",
+  topBnrH1: "#e0245e",
+  topBnrParagraph: "#0c253a",
+  topBnrOverlay: "none",
   text: "#363537",
   h2: "#0c253a",
   h4: "#e0245e",
@@ -37,6 +40,9 @@ export const lightTheme = {
 export const darkTheme = {
   headerBG: "#16443e",
   body: "#4d4255",
+  topBnrH1: "#0c253a",
+  topBnrParagraph: "#250e0e",
+  topBnrOverlay: "linear-gradient(360deg, #250c2e95 ,  #ffb2d2cd)",
   text: "#FAFAFA",
   h2: "#453749",
   h4: "#223120",

@@ -77,6 +77,7 @@ const TopBannerArea = styled.div`
   position: relative;
   .top-bnr-overlay {
     height: inherit;
+    background: ${({ theme }) => theme.topBnrOverlay};
     /* background-color: rgba(18, 20, 20, 0.603); */
   }
   .top-over-details-part {
@@ -86,7 +87,7 @@ const TopBannerArea = styled.div`
 
   .top-over-details-part h1 {
     font-family: "Ubuntu";
-    color: #e0245e;
+    color: ${({ theme }) => theme.topBnrH1};
     font-size: 3rem;
   }
 
@@ -94,7 +95,7 @@ const TopBannerArea = styled.div`
     line-height: 1.7;
     padding-top: 15px;
     font-size: 18px;
-    color: #0c253a;
+    color: ${({ theme }) => theme.topBnrParagraph};
   }
   .home-shield {
     position: absolute;
