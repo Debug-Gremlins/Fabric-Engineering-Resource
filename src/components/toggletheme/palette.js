@@ -42,7 +42,7 @@ export const darkTheme = {
   body: "#4d4255",
   topBnrH1: "#0c253a",
   topBnrParagraph: "#250e0e",
-  topBnrOverlay: "linear-gradient(360deg, #250c2e95 ,  #ffb2d2cd)",
+  topBnrOverlay: "linear-gradient(360deg, #250c2e90 ,  #ffb2d2cd)",
   text: "#FAFAFA",
   h2: "#453749",
   h4: "#223120",

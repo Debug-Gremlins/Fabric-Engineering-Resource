@@ -78,20 +78,15 @@ function Footer() {
                 }
                 link2={
                   <Link className="foot-link" to="/accessories/#routine">
-                    PDF Folder
-                  </Link>
-                }
-                link3={
-                  <Link className="foot-link" to="/accessories/#routine">
                     Routine
                   </Link>
                 }
-                link4={
+                link3={
                   <Link className="foot-link" to="/syllabus">
                     Syllabus
                   </Link>
                 }
-                link5={
+                link4={
                   <Link className="foot-link" to="/notice">
                     Term Updates
                   </Link>
@@ -202,11 +197,10 @@ const FooterArea = styled.div`
   }
   .cpy-rgt {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     padding: 40px 0px 10px;
     color: ${({ theme }) => theme.footerCpyRgt};
   }
-
   .cpy-rgt span a {
     text-decoration: none;
     color: ${({ theme }) => theme.footerSpana};

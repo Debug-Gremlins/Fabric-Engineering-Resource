@@ -250,9 +250,6 @@ const DevelopedBy = styled.div`
     .dev-card {
       margin-top: 20px;
     }
-    .dev-icon {
-      margin: 150px 0px 30px;
-    }
     .social {
       padding: 0;
     }

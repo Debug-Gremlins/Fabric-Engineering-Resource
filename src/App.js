@@ -3,7 +3,6 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./components/toggletheme/palette";
 import { GlobalStyles } from './components/toggletheme/global';
-import { useState } from "react";
 import Navbar from "./components/includes/NavigationBar";
 import HomePage from "./pages/HomePage";
 import SyllabusPage from "./pages/SyllabusPage";
