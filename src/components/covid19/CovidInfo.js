@@ -31,10 +31,10 @@ const CovidInfo = () => {
           <div className="row justify-content-center align-items-center">
             {loading && <SkeletonCovidCard />}
             {!loading &&
-              covidData.map((e) => (
+              covidData.map((e, index) => (
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <div className="card">
-                    <div key={e.id}>
+                    <div key={index}>
                       <CustomCard
                         countryName={e.country}
                         countryImg={e.countryInfo.flag}
