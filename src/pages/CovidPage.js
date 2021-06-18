@@ -8,6 +8,6 @@ function ExamInfoPage() {
             <CovidInfo />
         </div>
     )
-}
+} 
 
 export default ExamInfoPage;

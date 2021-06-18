@@ -4,6 +4,7 @@ import Details from "../components/customs/Details";
 import Counter from "../components/customs/CounterUp";
 import UpperBanner from "../components/customs/UpperBanner";
 import Content from "../components/customs/Content";
+import Location from "../components/customs/Location";
 // import Slider from "../components/customs/Slider";
 
 function HomePage() {
@@ -14,6 +15,7 @@ function HomePage() {
       <Banner />
       <Content />
       <Details />
+      <Location />
       {/* <Slider /> */}
     </div>
   );

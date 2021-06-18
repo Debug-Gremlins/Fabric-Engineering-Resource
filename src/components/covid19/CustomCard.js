@@ -15,7 +15,7 @@ const CustomCard = (props) => {
         <div className="col-lg-4 col-md-6 col-sm-6">
           <h5>Total Cases</h5>
           <p>{props.cases}</p>
-        </div>
+        </div> 
         <div className="col-lg-4 col-md-6 col-sm-6">
           <h5>Total Recovered</h5>
           <p>{props.recovered}</p>

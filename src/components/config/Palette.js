@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const CourseArea = styled.div`
   margin: 200px 0px 40px;
+  
   .card {
     background: ${({ theme }) => theme.cardBG};
     align-items: center;

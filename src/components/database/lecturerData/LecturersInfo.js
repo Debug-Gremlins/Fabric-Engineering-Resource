@@ -6,7 +6,7 @@ import MentorData from "../widgets/MentorDataCard";
 export class LecturersInfo extends Component {
   render() {
     return (
-      <div>
+      <div> 
         <InfoArea>
           <div className="container">
             <div className="row justify-content-center">
