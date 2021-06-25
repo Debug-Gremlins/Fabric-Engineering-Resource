@@ -11,7 +11,23 @@ function Footer() {
       <FooterArea>
         <div className="container">
           <div className="row justify-content-between">
-            <div className="footerlinkstyle">
+            {" "}
+            <div className="col-lg-3 col-md-6 col-sm-12 text-center">
+              <Link to="/">
+                <img className="rotating" src={Logo} alt="" srcSet />
+              </Link>
+              <span> Our Departmental Group : </span>
+              <h3>
+                <a
+                  href="https://www.facebook.com/groups/fabricmanufacturingengineering46/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Fabric Engineering 46
+                </a>
+              </h3>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <FooterLink
                 title="Individual Sections"
                 subTitle=""
@@ -42,7 +58,7 @@ function Footer() {
                 }
               />
             </div>
-            <div className="footerlinkstyle">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <FooterLink
                 title="Extras"
                 subTitle=" "
@@ -68,54 +84,7 @@ function Footer() {
                 }
               />
             </div>{" "}
-            <div className="footerlogostyle">
-              <ul>
-                <li>
-                  <Link to="/">
-                    <img className="rotating" src={Logo} alt="" srcSet />
-                  </Link>
-                </li>
-                <li>
-                  <span> Our Departmental Group : </span>
-                  <h3>
-                    <a
-                      href="https://www.facebook.com/groups/fabricmanufacturingengineering46/"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      Fabric Engineering 46
-                    </a>
-                  </h3>
-                </li>
-              </ul>
-            </div>
-            <div className="footerlinkstyle">
-              <FooterLink
-                title="Extras"
-                subTitle=" "
-                link1={
-                  <Link className="foot-link" to="/accessories/#bsr">
-                    Bus Route
-                  </Link>
-                }
-                link2={
-                  <Link className="foot-link" to="/accessories/#routine">
-                    Routine
-                  </Link>
-                }
-                link3={
-                  <Link className="foot-link" to="/syllabus">
-                    Syllabus
-                  </Link>
-                }
-                link4={
-                  <Link className="foot-link" to="/covid19updates">
-                    Covid Updates
-                  </Link>
-                }
-              />
-            </div>{" "}
-            <div className="footerlinkstyle">
+            <div className="col-lg-3 col-md-6 col-sm-12">
               <FooterLink
                 title="Developer Panel"
                 subTitle="Suggest changes for deploying next version!"
@@ -174,10 +143,6 @@ function Footer() {
 export default Footer;
 
 const FooterArea = styled.div`
-  .footerlinkstyle,
-  .footerlogostyle {
-    width: 20%;
-  }
   font-family: Ubuntu;
   padding: 90px 0px 10px;
   background: ${({ theme }) => theme.footerBG};
@@ -202,12 +167,20 @@ const FooterArea = styled.div`
     line-height: 2;
     list-style-type: none;
   }
-  ul li span {
-    font-size: 16px;
+  span {
+    display: block;
     font-family: Ubuntu;
     color: ${({ theme }) => theme.footerSpan};
-    display: inline-block;
     padding: 5px 0px;
+    font-weight: 500;
+  }
+  h3 a {
+    font-family: Poppins;
+    text-decoration: none;
+    display: block;
+    color: ${({ theme }) => theme.footerLinka};
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
   }
   ul li a {
     font-family: Poppins;
@@ -226,6 +199,9 @@ const FooterArea = styled.div`
     padding: 40px 0px 10px;
     color: ${({ theme }) => theme.footerCpyRgt};
     text-align: center;
+  }
+  .cpy-rgt span {
+    display: inline-block;
   }
   .cpy-rgt span a {
     text-decoration: none;
@@ -247,25 +223,15 @@ const FooterArea = styled.div`
     font-family: "Rubik";
   }
   .rotating {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   @media (max-width: 991px) {
-    .footerlinkstyle {
-      width: 50%;
-    }
-    .footerlogostyle {
-      width: 100%;
-      text-align: center;
-    }
     .rotating {
       max-width: 50% !important;
     }
   }
   @media (max-width: 767px) {
-    .footerlinkstyle {
-      width: 100%;
-    }
     text-align: left;
     align-items: center;
     padding: 50px 0px 10px;
