@@ -1,7 +1,7 @@
 import React from "react";
 import { CourseArea } from "../../config/Palette";
 import { Component } from "react";
-import data from "../../../json/math-data.json";
+import data from "../../../json/Level1 Term1/math-data.json";
 import MathInfo from "../../database/lecturerData/MathInfo";
 
 class MATHTable extends Component {

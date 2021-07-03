@@ -1,6 +1,6 @@
 import React from "react";
 import { CourseArea } from "../../config/Palette";
-import data from "../../../json/ntf-data.json";
+import data from "../../../json/Level1 Term1/ntf-data.json";
 import { Component } from "react";
 import NTFInfo from "../../database/lecturerData/NTFInfo";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { CourseArea } from "../../config/Palette";
 import { Component } from "react";
-import data from "../../../json/chemistry-data.json";
+import data from "../../../json/Level1 Term1/chemistry-data.json";
 import ChemistryInfo from "../../database/lecturerData/ChemistryInfo";
 
 class ChemistryTable extends Component {

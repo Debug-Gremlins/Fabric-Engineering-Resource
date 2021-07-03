@@ -1,6 +1,6 @@
 import React from "react";
 import { CourseArea } from "../../config/Palette";
-import data from "../../../json/bce-data.json";
+import data from "../../../json/Level1 Term1/bce-data.json";
 import { Component } from "react";
 import BCEInfo from "../../database/lecturerData/BCEInfo";
 
