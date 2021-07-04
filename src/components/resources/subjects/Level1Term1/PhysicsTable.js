@@ -1,10 +1,10 @@
 import React from "react";
-import { CourseArea } from "../../config/Palette";
+import { CourseArea } from "../../../config/Palette";
 import { Component } from "react";
-import data from "../../../json/Level1 Term1/chemistry-data.json";
-import ChemistryInfo from "../../database/lecturerData/ChemistryInfo";
+import data from "../../json/Level1Term1/physics-data.json";
+import PhysicsInfo from "../../../database/lecturerData/PhysicsInfo";
 
-class ChemistryTable extends Component {
+class PhysicsTable extends Component {
   render() {
     return (
       <div>
@@ -13,7 +13,7 @@ class ChemistryTable extends Component {
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div className="section-title">
-                  <h1>Chemistry</h1>
+                  <h1>Physics</h1>
                 </div>
                 <table>
                   <tbody>
@@ -47,10 +47,10 @@ class ChemistryTable extends Component {
             </div>
           </div>
         </CourseArea>
-        <ChemistryInfo />
+        <PhysicsInfo />
       </div>
     );
   }
 }
 
-export default ChemistryTable;
+export default PhysicsTable;

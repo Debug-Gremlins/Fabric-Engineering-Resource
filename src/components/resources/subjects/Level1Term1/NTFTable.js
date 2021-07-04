@@ -1,10 +1,10 @@
 import React from "react";
-import { CourseArea } from "../../config/Palette";
+import { CourseArea } from "../../../config/Palette";
+import data from "../../json/Level1Term1/ntf-data.json";
 import { Component } from "react";
-import data from "../../../json/Level1 Term1/math-data.json";
-import MathInfo from "../../database/lecturerData/MathInfo";
+import NTFInfo from "../../../database/lecturerData/NTFInfo";
 
-class MATHTable extends Component {
+class NTFTable extends Component {
   render() {
     return (
       <div>
@@ -13,7 +13,7 @@ class MATHTable extends Component {
             <div className="row justify-content-center">
               <div className="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div className="section-title">
-                  <h1>Mathematics</h1>
+                  <h1>Natural Textile Fiber (NTF)</h1>
                 </div>
                 <table>
                   <tbody>
@@ -47,10 +47,10 @@ class MATHTable extends Component {
             </div>
           </div>
         </CourseArea>
-        <MathInfo />
+        <NTFInfo />
       </div>
     );
   }
 }
 
-export default MATHTable;
+export default NTFTable;

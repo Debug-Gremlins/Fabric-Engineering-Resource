@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import AnnounceScreenII from "../../screens/AnnounceScreenII";
+import AnnounceScreenII from "../../../screens/AnnounceScreenII";
 
 export class Level1Term2Page extends Component {
   render() {

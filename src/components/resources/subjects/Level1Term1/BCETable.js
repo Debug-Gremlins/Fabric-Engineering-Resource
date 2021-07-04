@@ -1,8 +1,8 @@
 import React from "react";
-import { CourseArea } from "../../config/Palette";
-import data from "../../../json/Level1 Term1/bce-data.json";
+import { CourseArea } from "../../../config/Palette";
+import data from "../../json/Level1Term1/bce-data.json";
 import { Component } from "react";
-import BCEInfo from "../../database/lecturerData/BCEInfo";
+import BCEInfo from "../../../database/lecturerData/BCEInfo";
 
 class BCETable extends Component {
   render() {

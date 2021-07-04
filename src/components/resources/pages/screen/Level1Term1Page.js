@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ResourceDataCard from "../widgets/ResourceDataCard";
-import data from "../json/Level1Term1-data.json";
-import { ResourceArea } from "../Palette";
-import PdfResourceCard from "../widgets/PdfResourceCard";
+import ResourceDataCard from "../../widgets/ResourceDataCard";
+import data from "../../json/Level1Term1/Level1Term1-data.json";
+import { ResourceArea } from "../../Palette";
+import PdfResourceCard from "../../widgets/PdfResourceCard";
 export class Level1Term1 extends Component {
   render() {
     return (

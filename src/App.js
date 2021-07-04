@@ -1,4 +1,5 @@
 import React from "react";
+import 'react-bootstrap';
 import { Switch, Route, Redirect } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./components/toggletheme/palette";
@@ -6,8 +7,8 @@ import { GlobalStyles } from './components/toggletheme/global';
 import Navbar from "./components/includes/NavigationBar";
 import HomePage from "./pages/HomePage";
 import SyllabusPage from "./pages/SyllabusPage";
-import Level1Term1Page from "../src/components/resources/pages/Level1Term1Page";
-import Level1Term2Page from "../src/components/resources/pages/Level1Term2Page";
+import Level1Term1Page from "../src/components/resources/pages/screen/Level1Term1Page";
+import Level1Term2Page from "../src/components/resources/pages/screen/Level1Term2Page";
 import BCE1_1 from "../src/components/resources/pages/Level1Term1/BCEpage";
 import Chemistry1_1 from "../src/components/resources/pages/Level1Term1/ChemistryPage";
 import Math1_1 from "../src/components/resources/pages/Level1Term1/MathPage";
