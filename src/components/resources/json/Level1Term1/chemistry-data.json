@@ -130,5 +130,17 @@
         "Lecturer": "Samiul Sir",
         "DiscussedTopics": "Chemistry Math Review",
         "DriveLink": "https://drive.google.com/file/d/1x3Pw4yooBlH4zmPNpd3zabBVzOc-oKdi/view"
+    },
+    {
+        "Date": "12 July, 2021",
+        "Lecturer": "Farzana Mam",
+        "DiscussedTopics": "Complex Compound Review",
+        "DriveLink": "https://drive.google.com/file/d/1Zj3qjEmRpqUBcfZpYz2oMxX-2MKg27ng/view"
+    },
+    {
+        "Date": "14 July, 2021",
+        "Lecturer": "Farzana Mam",
+        "DiscussedTopics": "Crystal Field Theory",
+        "DriveLink": "https://drive.google.com/file/d/1N_99QRHkhqPloZ3euy-VhJi_jHzc21bC/view"
     }
 ]
