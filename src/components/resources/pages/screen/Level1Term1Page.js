@@ -28,6 +28,22 @@ export class Level1Term1 extends Component {
                   driveLink="https://drive.google.com/drive/folders/1-e1yNWk6uSCJzgxruVZs9Iouh03nBodk"
                 />
               </div>
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <PdfResourceCard
+                  title="Class Record Folder I"
+                  subTitle="Level 1 - Term 1"
+                  description="Daily recorded Class Lecture of each courses."
+                  driveLink="https://drive.google.com/drive/folders/1y-8HauM7A2omTtFOO4GRFy37ZieE79dR?usp=sharing"
+                />
+              </div>
+              <div className="col-lg-5 col-md-6 col-sm-12">
+                <PdfResourceCard
+                  title="Class Record Folder II"
+                  subTitle="Level 1 - Term 1"
+                  description="Daily recorded Class Lecture of each courses."
+                  driveLink="https://drive.google.com/drive/folders/10uRMf-lBwmKrQAaclx5-Q_KA0QIZ3_AF?usp=sharing"
+                />
+              </div>
             </div>
           </div>
         </ResourceArea>

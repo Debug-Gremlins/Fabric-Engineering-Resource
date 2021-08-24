@@ -20,7 +20,7 @@ export class ChemistryInfo extends Component {
                 <MentorData
                   name="Bristy Mam"
                   info="Chemistry"
-                  contact="01937126127"
+                  contact="01795112913"
                 />
               </div>
               <div className="col-lg-5 col-md-6  col-sm-12">
